@@ -1,20 +1,19 @@
-import Link from 'next/link'
-import Head from 'next/head'
-import { getSortedPostsData } from '../lib/posts'
-import Image from 'next/image'
+import Link from "next/link";
+import Head from "next/head";
+import { getSortedPostsData } from "../lib/posts";
+import Image from "next/image";
 // import ViewSource from '../components/view-source'
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
-    }
-  }
+      allPostsData,
+    },
+  };
 }
 // import Layout, { siteTitle } from '../components/layout'
 // import utilStyles from '../styles/utils.module.css'
-
 
 export default function Home({ allPostsData }) {
   return (
@@ -26,69 +25,65 @@ export default function Home({ allPostsData }) {
 
       <main>
         <h1 className="title">
-          BROWSER {''}
+          BROWSER {""}
           <Link href="/posts/about">
-          <a>2021</a>
+            <a>2021</a>
           </Link>
         </h1>
 
         <p className="description">
-          A Festival of Web-based Music | June 11th-13th 
+          A Festival of Web-based Music | June 11th-13th
         </p>
 
         <div className="grid">
-          <a 
-              Link href="/posts/mozillahubs"
-              className="card">
+          <a Link href="/posts/mozillahubs" className="card">
             <h3>Virtual Festival Grounds &rarr;</h3>
-            <p>Experience the festival through your own VR Avatar (a more open experience) </p>
+            <p>
+              Experience the festival through your own VR Avatar (a more open
+              experience)
+            </p>
           </a>
 
-          <a Link href="/posts/livestream"
-              className="card">
+          <a Link href="/posts/livestream" className="card">
             <h3>Livestream &rarr;</h3>
-            <p>Watch the festival through our curated livestream (a more coventional concert format)  </p>
+            <p>
+              Watch the festival through our curated livestream (a more
+              conventional concert format)
+            </p>
           </a>
 
-          <a
-            Link href="/posts/about"
-            className="card"
-          >
+          <a Link href="/posts/about" className="card">
             <h3>About &rarr;</h3>
             <p></p>
           </a>
-
-         
         </div>
 
-    <div className="bgWrap">
-        <Image
-        alt="tonejs-snippet"
-        src="/images/Tone-JS-Snippet-000042.png"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
+        <div className="bgWrap">
+          <Image
+            alt="tonejs-snippet"
+            src="/images/Tone-JS-Snippet-000042.png"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
           />
-    </div>
-
+        </div>
       </main>
 
- 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://skam-ev.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          With support from {' '}
+          With support from{" "}
           <img src="/SKAM_logo_RZ.svg" alt="SKAM Logo" className="logo" />
         </a>
-          <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        <a
+          href="https://www.hmdk-stuttgart.de/home/"
           target="_blank"
           rel="noopener noreferrer"
         >
-           {' '}
+          {" "}
           <img src="/HMDK_Logo_1C.jpg" alt="HMDK Logo" className="logo" />
         </a>
       </footer>
@@ -123,14 +118,13 @@ export default function Home({ allPostsData }) {
 
         footer img {
           margin-left: 0.5rem;
-
         }
 
         footer a {
           display: flex;
           justify-content: center;
           align-items: center;
-           background: #fafafa;
+          background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
         }
@@ -171,7 +165,6 @@ export default function Home({ allPostsData }) {
           background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
-
         }
 
         code {
@@ -226,7 +219,6 @@ export default function Home({ allPostsData }) {
 
         .logo {
           height: 1em;
-
         }
 
         .bgWrap {
@@ -258,8 +250,7 @@ export default function Home({ allPostsData }) {
         * {
           box-sizing: border-box;
         }
-
       `}</style>
     </div>
-  )
+  );
 }
