@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { getSortedPostsData } from '../lib/posts'
 import Image from 'next/image'
-// import ViewSource from '../components/view-source'
+
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
