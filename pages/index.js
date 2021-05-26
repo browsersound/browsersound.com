@@ -67,22 +67,34 @@ export default function Home({ allPostsData }) {
       </main>
 
       <footer>
-        <a
-          href="https://skam-ev.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          With support from{" "}
-          <img src="/SKAM_logo_RZ.svg" alt="SKAM Logo" className="logo" />
-        </a>
-        <a
-          href="https://www.hmdk-stuttgart.de/home/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          <img src="/HMDK_Logo_1C.jpg" alt="HMDK Logo" className="logo" />
-        </a>
+        <div className="footer-inner">
+          With support from:
+          <a
+            href="https://skam-ev.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/SKAM_logo_RZ.svg"
+              alt="SKAM Logo"
+              className="logo"
+              title="S-K-A-M e.V"
+            />
+          </a>
+          <a
+            href="https://www.hmdk-stuttgart.de/home/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img
+              src="/HMDK_Logo_1C.jpg"
+              alt="HMDK Logo"
+              className="logo"
+              title="HMDK Stuttgart"
+            />
+          </a>
+        </div>
       </footer>
 
       <style jsx>{`
@@ -114,16 +126,19 @@ export default function Home({ allPostsData }) {
         }
 
         footer img {
-          margin-left: 0.5rem;
+          margin: 0.5rem;
         }
 
-        footer a {
+        .footer-inner {
           display: flex;
+          flex-wrap: nowrap;
           justify-content: center;
           align-items: center;
           background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
+          margin: 10px
+          height: 50px;
         }
 
         a {
