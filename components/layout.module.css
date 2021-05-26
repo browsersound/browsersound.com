@@ -6,11 +6,21 @@
 
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+}
+
+.header p {
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
 }
 
 .backToHome {
   margin: 3rem 0 0;
 }
-

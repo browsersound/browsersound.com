@@ -2,7 +2,6 @@ import Link from "next/link";
 import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
 import Image from "next/image";
-// import ViewSource from '../components/view-source'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -12,8 +11,6 @@ export async function getStaticProps() {
     },
   };
 }
-// import Layout, { siteTitle } from '../components/layout'
-// import utilStyles from '../styles/utils.module.css'
 
 export default function Home({ allPostsData }) {
   return (
@@ -223,6 +220,8 @@ export default function Home({ allPostsData }) {
 
         .bgWrap {
           position: fixed;
+          top: 0;
+          left: 0;
           height: 100vh;
           width: 100vw;
           overflow: hidden;

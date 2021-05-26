@@ -1,61 +1,59 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import Head from 'next/head'
+import Link from "next/link";
+import Head from "next/head";
+import Layout from "../../components/layout";
 
 export default function FirstPost() {
-	return (
-	<>
-		<Head>
-			<title>Livestream</title>
-		</Head>
-		<h1>Livestream</h1>
-		<h2>
-		Experience a conventional livestream of BROWSER's 3-day festival here. The interactive components of the new works will be observed through the POV of another user.
-		</h2>
+  return (
+    <Layout>
+      <Head>
+        <title>Livestream</title>
+      </Head>
+      <h1>Livestream</h1>
+      <p>
+        Experience a conventional livestream of BROWSER's 3-day festival here.
+        The interactive components of the new works will be observed through the
+        POV of another user.
+      </p>
+      <h2>Friday June 11th</h2>
+      <p className="event">
+        Open Gallery - all day <br /> interactive and installative works
+      </p>
+      <h2>Saturday June 12th</h2>
+      <div className="event">
+        <h3>EVENT 1: 7:00-8:30pm (CEST) / 10:00-12:30am (PDT)</h3>
+        <p>Premiere and Presentation of New Works by:</p>
+        <ul>
+          <li>Delia Ramos Rodríguez + Nikolay Suslov</li>
+          <li>Jana De Troyer + Steffen Reichelt</li>
+          <li>Carla Tapparo + Rapo Francisco</li>
+        </ul>
+        <p>Open Gallery - all day</p>
+      </div>
+      <div className="event">
+        <h2>Sunday June 13th</h2>
+        <h3>EVENT 2: 7:00-8:30pm (CEST) / 10:00-12:30am (PDT)</h3>
+        <p>Premiere and Presentation of New Works by:</p>
+        <ul>
+          <li>Solomiya Moroz + Curt Miller</li>
+          <li>Zak Argabrite + Becky Brown</li>
+          <li>Kevin CK Lo</li>
+        </ul>
+        <p>Open Gallery - all day</p>
+      </div>
 
-		<h2>
-		Friday June 11th
-		</h2>
-		<h3>
-		Open Gallery - all day <br /> interactive and installative works
-		</h3>
-		<h2>
-		Saturday June 12th
-		</h2>
-		<h3>
-		EVENT 1: 7:00-8:30pm (CEST) / 10:00-12:30am (PDT)  <br />
-		Premiere and Presentation of New Works by <br />
-		Delia Ramos Rodríguez + Nikolay Suslov  <br />
-		Jana De Troyer + Steffen Reichelt <br />
-		Carla Tapparo + Rapo Francisco <br /> <br />
-		Open Gallery - all day 
-		</h3>
-		<h2>
-		Sunday June 13th
-		</h2>
-		<h3>
-		EVENT 2: 7:00-8:30pm (CEST) / 10:00-12:30am (PDT)  <br />
-		Premiere and Presentation of New Works by <br />
-		Solomiya Moroz + Curt Miller  <br />
-		Zak Argabrite + Becky Brown <br />
-		Kevin CK Lo  <br /> <br />
-		Open Gallery - all day 
-		</h3>
-		<h3>
-			<Link href="/">
-				<a>Back to Homepage</a>
-			</Link>
-		</h3>
-	</>
-		)
+      <style jsx>{`
+        .event {
+          margin: 20px 0;
+        }
+        .event ul {
+          padding: 0;
+          padding-left: 1em;
+          margin: 0;
+        }
+        .event ul li {
+          list-style: none;
+        }
+      `}</style>
+    </Layout>
+  );
 }
-
-
-const YourComponent = () => (
-  <Image
-    src="SKAM_logo_RZ.jpg" // Route of the image file
-    height={144} // Desired size with correct aspect ratio
-    width={144} // Desired size with correct aspect ratio
-    alt="Your Name"
-  />
-)
