@@ -17,7 +17,7 @@ export default function Home({ allPostsData }) {
     <div className="container">
       <Head>
         <title>BROWSER | Festival for Web-based Music</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/browser-logo.ico" />
       </Head>
 
       <main>
@@ -53,6 +53,13 @@ export default function Home({ allPostsData }) {
             <h3>About &rarr;</h3>
             <p></p>
           </a>
+
+          <a Link href="https://www.brandonlincolnsnyder.com/email-reminder" className="card">
+            <h3>Remind Me! &rarr;</h3>
+            <p>
+              Email reminder + Facebook Event for when the festival is about to begin.
+            </p>
+          </a>
         </div>
 
         <div className="bgWrap">
@@ -61,7 +68,7 @@ export default function Home({ allPostsData }) {
             src="/images/Tone-JS-Snippet-000042.png"
             layout="fill"
             objectFit="cover"
-            quality={100}
+            quality={80}
           />
         </div>
       </main>
