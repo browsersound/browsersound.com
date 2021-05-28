@@ -8,18 +8,21 @@ export default function FirstPost() {
       <Head>
         <title>Livestream</title>
       </Head>
+      <p className="event">
       <h1>Livestream</h1>
       <p>
         Experience a conventional livestream of BROWSER's 3-day festival here.
         The interactive components of the new works will be observed through the
         POV of another user.
       </p>
-      <h2>Friday June 11th</h2>
+      </p>
       <p className="event">
+      <h2>Friday June 11th</h2>
         Open Gallery - all day <br /> interactive and installative works
       </p>
-      <h2>Saturday June 12th</h2>
+      
       <div className="event">
+      <h2>Saturday June 12th</h2>
         <h3>EVENT 1: 7:00-8:30pm (CEST) / 10:00-12:30am (PDT)</h3>
         <p>Premiere and Presentation of New Works by:</p>
         <ul>
@@ -39,19 +42,36 @@ export default function FirstPost() {
           <li>Kevin CK Lo</li>
         </ul>
         <p>Open Gallery - all day</p>
+        </div>
+
+        <div className="event">
+        <ul>
+          <li>Work by Brandon Lincoln Snyder + Christian Espinosa 
+            Schatz + Ethan Lee + Henry Sales also exhibited in 
+            the open gallery</li>
+        </ul>
       </div>
 
       <style jsx>{`
         .event {
           margin: 20px 0;
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
         }
         .event ul {
           padding: 0;
           padding-left: 1em;
           margin: 0;
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
         }
         .event ul li {
           list-style: none;
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
         }
       `}</style>
     </Layout>

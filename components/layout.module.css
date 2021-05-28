@@ -24,3 +24,24 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+.event {
+  margin: 20px 0;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+}
+.event ul {
+  padding: 0;
+  padding-left: 1em;
+  margin: 0;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+}
+.event ul li {
+  list-style: none;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+}
