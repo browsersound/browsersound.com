@@ -16,10 +16,10 @@ export default function FirstPost() {
         with other online avatars.
       </p>
       </p>
-      <p className="event">
+      <div className="event">
       <h2>Friday June 11th</h2>
         Open Gallery - all day <br /> interactive and installative works
-      </p>
+      </div>
       
       <div className="event">
       <h2>Saturday June 12th</h2>
