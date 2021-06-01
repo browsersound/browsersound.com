@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
 import Image from "next/image";
+import utilStyles from "../styles/utils.module.css";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -33,8 +34,11 @@ export default function Home({ allPostsData }) {
         </p>
 
         <div className="grid">
-          <a Link href="/posts/mozillahubs" className="card">
-            <h3>Virtual Festival Grounds &rarr;</h3>
+          <a href="/posts/mozillahubs" className="card">
+            <h3>
+              Virtual Festival{" "}
+              <span className={utilStyles.noBreak}>Grounds &rarr;</span>
+            </h3>
             <p>
               Experience the festival through your own VR Avatar (a more open
               experience)
@@ -42,7 +46,7 @@ export default function Home({ allPostsData }) {
           </a>
 
           <a Link href="/posts/livestream" className="card">
-            <h3>Livestream &rarr;</h3>
+            <h3 className={utilStyles.noBreak}>Livestream &rarr;</h3>
             <p>
               Watch the festival through our curated livestream (a more
               conventional concert format)
@@ -50,14 +54,21 @@ export default function Home({ allPostsData }) {
           </a>
 
           <a Link href="/posts/about" className="card">
-            <h3>About &rarr;</h3>
+            <h3 className={utilStyles.noBreak}>About &rarr;</h3>
             <p></p>
           </a>
 
-          <a Link href="https://www.brandonlincolnsnyder.com/email-reminder" className="card">
-            <h3>Remind Me! &rarr;</h3>
+          <a
+            Link
+            href="https://www.brandonlincolnsnyder.com/email-reminder"
+            className="card"
+          >
+            <h3>
+              Remind <span className={utilStyles.noBreak}>Me! &rarr;</span>
+            </h3>
             <p>
-              Email reminder + Facebook Event for when the festival is about to begin.
+              Email reminder + Facebook Event for when the festival is about to
+              begin.
             </p>
           </a>
         </div>
@@ -171,6 +182,12 @@ export default function Home({ allPostsData }) {
           background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
+        }
+
+        @media screen and (max-width: 768px) {
+          .title {
+            font-size: 3rem;
+          }
         }
 
         .title,
