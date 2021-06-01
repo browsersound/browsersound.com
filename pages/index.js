@@ -45,7 +45,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a Link href="/posts/livestream" className="card">
+          <a Link href="https://www.twitch.tv/browsersound" className="card">
             <h3 className={utilStyles.noBreak}>Livestream &rarr;</h3>
             <p>
               Watch the festival through our curated livestream (a more
@@ -55,6 +55,10 @@ export default function Home({ allPostsData }) {
 
           <a Link href="/posts/about" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
+
+            <p>
+            ...the featured pieces, and our open workshops
+            </p>
           </a>
 
           <a
