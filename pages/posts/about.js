@@ -5,11 +5,11 @@ export default function FirstPost() {
   return (
     <Layout>
       <Head>
-        <title>About</title>
+        <title>Workshops</title>
       </Head>
       
       <p className="event">
-      <h1>About BROWSER 2021</h1>
+      <h1>Workshops Overview</h1>
         For its inaugural round, BROWSER commissioned 10 artists/web-developers
         (hereafter, simply 'artists'), premiered 5 new works and 1 existing work
         in an interactive online festival, and held 3 open workshops. Our 10
@@ -17,7 +17,7 @@ export default function FirstPost() {
         received from all across the globe. This page is an archive of what have
         done.
 
-      <h2>Workshops Overview</h2>
+      <h2>Workshops Pre-History</h2>
   
         We held 5 online group meetings which were open to the 76 people who
         submitted an application to BROWSER, as well as anyone else who asked to

@@ -53,7 +53,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a Link href="/posts/about" className="card">
+          <a Link href="/posts/program-notes" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
           </a>
 
