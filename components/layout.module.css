@@ -9,15 +9,44 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: #fafafa;
+  margin-bottom: 3rem;
 }
-
-.header p {
+.header a {
+  color: #fafafa;
+}
+.headerDescription {
   font-size: 0.9em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.headerDescription p {
+  margin: 0;
+}
+.headerDescription .divider {
+  height: 2em;
+  width: 1px;
+  background-color: #fafafa;
+  margin: 0 0.5em;
 }
 
 @media screen and (max-width: 600px) {
   .header {
     flex-direction: column;
+  }
+  .headerDescription {
+    flex-direction: column;
+    text-align: center;
+  }
+  .headerDescription p {
+    margin: 5px;
+  }
+  .headerDescription .divider {
+    width: 100%;
+    height: 1px;
+    margin: 0;
   }
 }
 

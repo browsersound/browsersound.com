@@ -55,7 +55,6 @@ export default function Home({ allPostsData }) {
 
           <a Link href="/posts/about" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
-            <p></p>
           </a>
 
           <a

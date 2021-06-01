@@ -27,11 +27,13 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         <h2 className={utilStyles.headingLg}>
-          <Link href="/">
-            <a className={utilStyles.colorInherit}>{name}</a>
-          </Link>
+          <Link href="/">{name}</Link>
         </h2>
-        <p>A Festival of Web-based Music | June 11th-13th</p>
+        <div className={styles.headerDescription}>
+          <p>A Festival of Web-based Music </p>
+          <div className={styles.divider}></div>
+          <p className={utilStyles.noBreak}>June 11th-13th</p>
+        </div>
       </header>
       <main>{children}</main>
       <div className={styles.backToHome}>
