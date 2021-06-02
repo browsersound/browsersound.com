@@ -111,16 +111,30 @@ export default function FirstPost() {
      </div>
         
     <div className="event">
-    <h2>Return of the Eye</h2>
+    <h2>Return the Eye - retrospective and futures</h2>
         <h3>Kevin CK Lo</h3>
-        <p>[Information coming soon]</p>
+        <p>Kevin will summarize Return the Eye, an online exhibit presented by Cloaca Projects (SF) that 
+          ran December 2020 through February 2021. This work telematically joined viewers in controlling 
+          three cameras to view in situ art pieces, which considered visibility, the elastic ontology of 
+          virtual images, and the weaponization of optical technologies. Viewers' user data and interaction 
+          with the website collaboratively shaped the long form generative composition. This was a way to 
+          make music together during the pandemic.</p>
+
+        <p>This work was also bookended by two live performances, each with two differing modes of audience 
+          interaction. Kevin will speak and present to the second of these, with audience participation 
+          (clicks, mouse movements, and such) as a part of shaping the presentation.</p>
+
     </div>
 
     <div className="event">
-     <h2>Firewood, Corn, Weaving</h2>
+     <h2>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h2>
         <h3>Brandon Lincoln Snyder, Christian Espinosa Schatz, Henry Sales, and Ethan Lee</h3>
         
-        <p>[Information coming soon]</p>
+        <p>Firewood Corn Weaving is a mobile web experience that pieces together videos, 
+          made by Mayan interlocutors from the Guatemalan highlands about their daily lives, 
+          with interactive texts dwelling on themes of weather, climate, abstraction, and translation.  </p>
+      
+          
     </div>
        
 
