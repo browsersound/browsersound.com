@@ -2,6 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../../components/layout";
 import styles from "../../components/layout.module.css";
+// import SyntaxHighlighter from 'react-syntax-highlighter';
+// import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
+
 
 export default function FirstPost() {
   return (
@@ -34,7 +38,9 @@ export default function FirstPost() {
           height={400}
           layout="responsive"
         />
-        <img src="/images/Becky-Brown-02.png" className="image-test" />
+        <p></p>
+        <img src="/images/Becky-Brown-02.png" classname="image-test"></img>
+      
       </div>
 
       <div className={styles.event}>
@@ -90,6 +96,9 @@ export default function FirstPost() {
           height={400}
           layout="responsive"
         />
+
+        
+      
         <p>
           Meanwhile, most people’s webcam usage has risen exponentially. We open
           our cameras through video conferences, live streams and the capture of
@@ -123,8 +132,35 @@ export default function FirstPost() {
       <div className={styles.event}>
         <h2>ANTI - A Netart Theory of Identity</h2>
         <h3>Carla and Rapo</h3>
+          
+        <p><code>
+          &lt;title&gt;ANTI - A Netart Theory of Identity&lt;/title&gt;</code></p>
+          <p><code>
+            &lt;script type="text/performance"&gt; Carla & Rapo &lt;onclick="perform();"&gt;</code></p>
+          <p><code>
+            &lt;p&gt;they will and will not coexist. In this poetic encounter they are interested in 
+            empathizing with the &lt;body&gt; of the internet, using &lt;rhythms&gt; and texts from 
+            &lt;sources&gt; they are interested-in to un-draw the limits and &lt;perceptions&gt; of 
+            identities&lt;/p&gt;</code></p>
+          <p><code>
+            &lt;p&gt;they would use &lt;sampling&gt; techniques and build a sound-collage to de-automatize 
+            the perceptual organization of the &lt;medium&gt;, as well as the struggling and underlying 
+            ideologies beneath&lt;/p&gt;</code></p>
+          <p><code>
+            &lt;p&gt;this will be an on-line-real-time-improvised-performance&lt;/p&gt;</code></p>
+          <p><code>
+            &lt;p&gt;and will be the first time the artists will perform together as a continuation of a 
+            dialogue that started years ago when they met in a remote place from planet earth&lt;/p&gt;</code></p>
+          <p><code>
+            &lt;/script&gt;</code></p>
+      
+        
+          {/* <SyntaxHighlighter language="javascript" style={docco}>
+      {codeString}
+    </SyntaxHighlighter> */}
 
-        <p>[Information coming soon]</p>
+        <img src="/images/anti - rapofran.jpg" classname="image-test"></img>
+      
       </div>
 
       <div className={styles.event}>
