@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER {""}
-          <Link href="/posts/about">
+          <Link href="/posts/program-notes">
             <a>2021</a>
           </Link>
         </h1>
@@ -57,7 +57,7 @@ export default function Home({ allPostsData }) {
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
-            ...the featured pieces, and our open workshops
+            the featured pieces, and our open workshops
             </p>
           </a>
 
