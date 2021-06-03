@@ -32,12 +32,15 @@ export default function FirstPost() {
           characters for a look into the grand tour you initiate every time you
           send a phrase as simple as "hello."
         </p>
-        <Image
+        {/* <Image
           src="/images/Becky-Brown-01.png"
           width={600}
           height={400}
           layout="responsive"
-        />
+        /> */}
+
+        <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+
         <p></p>
         <img src="/images/Becky-Brown-02.png" classname="image-test"></img>
       
@@ -66,18 +69,20 @@ export default function FirstPost() {
           through these layers without breaking the original artwork.
         </p>
         <p>
-          For implementation we used Open Source frameworks for Web Browser,
+          For implementation, Nikolay and Delia used Open Source frameworks for Web Browser,
           especially LiveCoding.space SDK. During the development of the project
-          we implemented multi-user synchronization support for several open
+          they implemented multi-user synchronization support for several open
           source frameworks across web browsers: multi-user 2D canvas in Two.js,
-          synchronized Transport object in Tone.js. Also backported a video
+          synchronized Transport object in Tone.js. They also backported a video
           synchronization solution from Croquet V onto Virtual World Framework.
-          We used MediaPipe and Hand.js for offline extracting of the body
+          MediaPipe and Hand.js were used for offline extracting of the body
           motion from the video performance. The project can be built from the
-          source code and run locally without the need of Internet connection,
+          source code and run locally without the need of internet connection,
           as it has no dependencies on any cloud services. The source code is
           available on the project site.
         </p>
+        {/* <img src="/images/trailer-02-trim-02.gif" classname="image-test"></img> */}
+
       </div>
 
       <div className={styles.event}>
@@ -90,14 +95,14 @@ export default function FirstPost() {
           engagement. The retrieved information is then monetized through
           targeted advertising.
         </p>
-        <Image
+        {/* <Image
           src="/images/Dataplease - Jana De Troyer.gif"
           width={600}
           height={400}
           layout="responsive"
-        />
+        /> */}
+        <img src="/images/Dataplease - Jana De Troyer.gif" classname="image-test"></img>
 
-        
       
         <p>
           Meanwhile, most people’s webcam usage has risen exponentially. We open
@@ -115,19 +120,19 @@ export default function FirstPost() {
         </p>
 
         <p>
-          In a playful way, De Troyer and Reichelt explore the possibility of
+          In a playful way, Jana and Steffen explore the possibility of
           webcam-based user tracking with the interactive audiovisual
           installation »Data, please!« They invite the visitors to engage with
           their body data in the digital space.
         </p>
 
-        <Image
+        {/* <Image
           src="/images/Dataplease-01.png"
           width={600}
           height={400}
           layout="responsive"
-        />
-        
+        /> */}
+        <img src="/images/Dataplease-01.png" classname="image-test"></img>
       </div>
       <div className={styles.event}>
         <h2>ANTI - A Netart Theory of Identity</h2>
@@ -179,7 +184,7 @@ export default function FirstPost() {
           created.
         </p>
         <p>
-          For the current iteration of the instrumental interface, we chose to
+          For the current iteration of the instrumental interface, Solomiya and Curt chose to
           focus on the star that combines a few shapes like superimposed
           crosses, forming eight triangle shapes within a square. The star to us
           represents an energy field that is both radiant and threatening as a
@@ -188,8 +193,8 @@ export default function FirstPost() {
           patterns sonified through different synths in Tone.js.
         </p>
         <p>
-          We took inspiration from Tom Johnson’s illustrated music in which he
-          signifies different \geometrical shapes by calculating repeatable note
+          Solomiya and Curt took inspiration from Tom Johnson’s illustrated music in which he
+          signifies different geometrical shapes by calculating repeatable note
           instances for different triangles, squares and block patterns. In the
           star shape, the triangles and squares use the repeating patterns
           centred around D Dorian and C Aeolian modes. These modes are
@@ -213,30 +218,33 @@ export default function FirstPost() {
           virtual images, and the weaponization of optical technologies. Viewers' user data and interaction 
           with the website collaboratively shaped the long form generative composition. This was a way to 
           make music together during the pandemic.</p>
-          <Image
+          {/* <Image
           src="/images/rte-1-Kevin Lo.gif"
           width={600}
           height={400}
           layout="responsive"
-        />
+        /> */}
+        <img src="/images/rte-1-Kevin Lo.gif" classname="image-test"></img>
         <p></p>
-         <Image
+         {/* <Image
           src="/images/rte-2-Kevin Lo.gif"
           width={600}
           height={400}
           layout="responsive"
-        />
+        /> */}
+        <img src="/images/rte-2-Kevin Lo.gif" classname="image-test"></img>
 
         <p>This work was also bookended by two live performances, each with two differing modes of audience 
           interaction. Kevin will speak and present to the second of these, with audience participation 
           (clicks, mouse movements, and such) as a part of shaping the presentation.</p>
           
-          <Image
+          {/* <Image
           src="/images/rte-3.png"
           width={600}
           height={400}
           layout="responsive"
-        />
+        /> */}
+        <img src="/images/rte-3.png" classname="image-test"></img>
       </div>
 
       <div className={styles.event}>
@@ -246,6 +254,8 @@ export default function FirstPost() {
         <p>Firewood Corn Weaving is a mobile web experience that pieces together videos, 
           made by Mayan interlocutors from the Guatemalan highlands about their daily lives, 
           with interactive texts dwelling on themes of weather, climate, abstraction, and translation.  </p>
+
+          <img src="/images/trailer-02-trim-02.gif" classname="image-test"></img>
       
       </div>
 
