@@ -33,31 +33,46 @@ export default function Home({ allPostsData }) {
           A Festival of Web-based Music | June 11th-13th
         </p>
 
+        <p className="description2">
+          Three Ways to Experience the Festival:
+        </p>
+       
+        <div className="grid-container">
         <div className="grid">
           <a href="/posts/mozillahubs" className="card">
             <h3>
-              Virtual Festival{" "}
+              VR Festival{" "}
               <span className={utilStyles.noBreak}>Grounds &rarr;</span>
             </h3>
             <p>
-              Experience the festival through your own VR Avatar (a more open
-              experience)
+              Experience through your own VR Avatar (CPU-intensive)
             </p>
           </a>
 
+          <a href="/posts/mozillahubs" className="card">
+            <h3>
+              Open Gallery{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
+            <p>
+              Simply check out the pieces on this website
+            </p>
+          </a>
+          
           <a Link href="https://www.twitch.tv/browsersound" className="card">
             <h3 className={utilStyles.noBreak}>Livestream &rarr;</h3>
             <p>
-              Watch the festival through our curated livestream (a more
-              conventional concert format)
+              See our livestream schedule on the About page.
             </p>
           </a>
+
+          </div>
 
           <a Link href="/posts/program-notes" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
-            the featured pieces, and our open workshops
+            the featured pieces, festival schedule, and our open workshops
             </p>
           </a>
 
@@ -166,6 +181,10 @@ export default function Home({ allPostsData }) {
           color: inherit;
           text-decoration: none;
         }
+        a2 {
+          color: #fae102;
+          text-decoration: none;
+        }
 
         .title a {
           color: #0070f3;
@@ -205,6 +224,13 @@ export default function Home({ allPostsData }) {
           border-radius: 5px;
           padding: 0.75rem;
         }
+        .description2 {
+          line-height: 1.5;
+          font-size: 1.5rem;
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
+        }
 
         code {
           background: #fafafa;
@@ -216,13 +242,19 @@ export default function Home({ allPostsData }) {
         }
 
         .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          grid-template-rows: auto;
           max-width: 800px;
           margin-top: 3rem;
+        }
+
+        .grid-container{
+          display:grid;
+          grid-template-columns: auto ;
+          grid-template-rows: auto auto auto;
+          column-gap: 1em;
+          /* row-gap: 1em;*/
         }
 
         .card {
@@ -270,10 +302,11 @@ export default function Home({ allPostsData }) {
           z-index: -1;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
           .grid {
             width: 100%;
-            flex-direction: column;
+            grid-template-columns: auto ;
+            grid-template-rows: auto;
           }
         }
       `}</style>

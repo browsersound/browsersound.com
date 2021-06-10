@@ -22,7 +22,9 @@ export default function FirstPost() {
       </p>
       <div className="event">
       <p>
-          Christian Espinosa Schatz presents the methodology behind the project here at [insert]
+          Christian Espinosa Schatz presents the methodology behind the project for 
+          the University of Pennsylvania's EnviroLab conference on "Placing: New 
+          Engagements with the Environment"
           <ul>
         <li><a href="https://vimeo.com/521241474"> (Dis)placing the Weather: Decolonizing ethnoclimatology and indigenizing climate change</a>.</li>
           </ul>
@@ -32,13 +34,13 @@ export default function FirstPost() {
       <p>
           Ethan Lee speaks here on his role in the project as web developer.
           <ul>
-        <li><a href="https://vimeo.com/521241474"> Developing firewoodcornweaving.app</a>.</li>
+        <li><a href="https://youtu.be/vkiynR9MSkg"> The making of Firewood, Corn, Weaving</a>.</li>
           </ul>
       </p>
       </div>
 
       <div className="event">
-        <p>Composed by:</p>
+        <p>Created by:</p>
         <ul>
         <li>Hermenegildo Godinez Jacinto, Video Director, Camera</li>
         <li>Silverio Osbaldo Claudio, Video Director, Video Participant (Firewood)</li>

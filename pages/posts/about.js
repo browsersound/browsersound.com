@@ -25,7 +25,10 @@ export default function FirstPost() {
         BROWSER's commissioned artists sharing the progress on their new works,
         and 3) collaborative planning and production of the BROWSER 2021 online
         festival.
-    
+        
+        <p></p>
+        <img src="/images/Jana-1.png" classname="image-test"></img>
+        <p>Jana and Steffen presenting their work-in-progress</p>
 
       <h2>Workshop #1: Introductions and Commons</h2>
     
@@ -43,6 +46,8 @@ export default function FirstPost() {
         The session ended with a google doc that all the participants filled
         with pieces and learning resources around the topic of web-based art. A
         Slack group was also created to facilitate ongoing discussions.
+
+   
       
 
       <h2>Workshop #2: Laurens Inauen</h2>
@@ -51,6 +56,13 @@ export default function FirstPost() {
         Laurens Inauen gave a lecture on generative music aesthetics, and
         presented a perspective on how web-based art is situated amidst
         contemporary music's legacy and discourse.
+
+        <p></p>
+        <img src="/images/Laurens-2.png" classname="image-test"></img>
+        <p></p>
+        <img src="/images/Laurens-1.png" classname="image-test"></img>
+        <p></p>
+        <img src="/images/ZoomRoom-1.png" classname="image-test"></img>
       
 
       <h2>Workshop #3: Nicolas Zupfer</h2>
@@ -58,11 +70,18 @@ export default function FirstPost() {
       
         Nicolas Zupfer presented his work in experimental graphic design and
         workshopped the artists' works-in-progress
+        <p></p>
+        <img src="/images/Nico-2.png" classname="image-test"></img>
+        <p></p>
+        <img src="/images/Nico-1.png" classname="image-test"></img>
+        
       
 
       <h2>Workshop #4: Yotam Mann and Tone.js</h2>
       
         Yotam Mann gave an overview of tone.js, his framework for web audio API
+        <p></p>
+        <img src="/images/Yotam-3.png" classname="image-test"></img>
       </p>
 
 
