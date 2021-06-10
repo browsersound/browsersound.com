@@ -59,7 +59,7 @@ export default function FirstPost() {
         <div className={styles.event}>
         <h4>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h4>
           <p>Brandon Lincoln Snyder, Christian Espinosa Schatz, Henry Sales, and Ethan Lee</p>
-          <img src="/images/trailer-02-trim-02.gif" classname="image-test" ></img>
+          <img src="/images/firewood.png" classname="image-test" ></img>
           <a href="https://browsersound.com/posts/firewood-corn-weaving">browsersound.com/posts/firewood-corn-weaving</a></div>
         <div className={styles.event2}> <p>
         <h4>Live Discussion</h4>
@@ -308,8 +308,9 @@ export default function FirstPost() {
           display:grid;
           align-tiems: center;
           justify-content: center;
-          grid-template-columns: auto auto auto auto;
-          grid-template-rows: auto auto;
+          // grid-template-columns: repeat(4, minmax(0, 1fr));
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: auto;
           column-gap: 1em;
           /* row-gap: 1em;*/
         }
