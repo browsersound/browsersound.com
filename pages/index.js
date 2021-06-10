@@ -33,6 +33,11 @@ export default function Home({ allPostsData }) {
           A Festival of Web-based Music | June 11th-13th
         </p>
 
+        <p className="description2">
+          Three Ways to Experience the Festival:
+        </p>
+       
+        <div className="grid-container">
         <div className="grid">
           <a href="/posts/mozillahubs" className="card">
             <h3>
@@ -40,18 +45,28 @@ export default function Home({ allPostsData }) {
               <span className={utilStyles.noBreak}>Grounds &rarr;</span>
             </h3>
             <p>
-              Experience the festival through your own VR Avatar (a more open
-              experience)
+              Experience the festival through your own VR Avatar (CPU-intensive)
             </p>
           </a>
 
+          <a href="/posts/mozillahubs" className="card">
+            <h3>
+              Open Gallery{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
+            <p>
+              Simply check out the pieces on this website
+            </p>
+          </a>
+          
           <a Link href="https://www.twitch.tv/browsersound" className="card">
             <h3 className={utilStyles.noBreak}>Livestream &rarr;</h3>
             <p>
-              Watch the festival through our curated livestream (a more
-              conventional concert format)
+              Live presentations and walkthroughs of each piece (Saturday and Sunday from 19:00 CEST)
             </p>
           </a>
+
+          </div>
 
           <a Link href="/posts/program-notes" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
@@ -205,6 +220,13 @@ export default function Home({ allPostsData }) {
           border-radius: 5px;
           padding: 0.75rem;
         }
+        .description2 {
+          line-height: 1.5;
+          font-size: 1.5rem;
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
+        }
 
         code {
           background: #fafafa;
@@ -223,6 +245,14 @@ export default function Home({ allPostsData }) {
 
           max-width: 800px;
           margin-top: 3rem;
+        }
+
+        .grid-container{
+          display:grid;
+          grid-template-columns: auto ;
+          grid-template-rows: auto auto auto;
+          column-gap: 1em;
+          /* row-gap: 1em;*/
         }
 
         .card {

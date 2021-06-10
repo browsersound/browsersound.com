@@ -59,6 +59,15 @@
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
+  
+}
+
+
+.event2 {
+  margin: 20px 0;
+  background: #ffe263;
+  border-radius: 5px;
+  padding: 0.75rem;
 }
 .event ul {
   padding: 0;

@@ -16,6 +16,7 @@ export default function FirstPost() {
       </Head>
       <p className={styles.event}>
         <h1>Open Gallery</h1>
+        View our seven featured works here, and join us for a live discussion at the zoom link below
       </p>
 
       <div className="grid-container">
@@ -23,6 +24,8 @@ export default function FirstPost() {
           <h4>PACKETSPHERE: An Internet Travelogue</h4>
           <p>Zak Argabrite and Becky Brown</p>
           <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+
+          
           <a href="http://bit.ly/packetsphere">bit.ly/packetsphere</a>
         </div>
         <div className={styles.event}>
@@ -56,10 +59,10 @@ export default function FirstPost() {
         <div className={styles.event}>
         <h4>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h4>
           <p>Brandon Lincoln Snyder, Christian Espinosa Schatz, Henry Sales, and Ethan Lee</p>
-          <img src="/images/trailer-02-trim-02.gif" classname="image-test"></img>
+          <img src="/images/trailer-02-trim-02.gif" classname="image-test" ></img>
           <a href="https://browsersound.com/posts/firewood-corn-weaving">browsersound.com/posts/firewood-corn-weaving</a></div>
-        <div className={styles.event}> <p>
-          Presentations of the Projects
+        <div className={styles.event2}> <p>
+        <h4>Live Discussion</h4>
           19:00 CEST on Saturday and Sunday (12.07.21 and 13.07.21)
         </p>
           <p>
@@ -68,15 +71,16 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h1>BROWSER's Featured Works</h1>
+        <h1>Program Notes</h1>
         These new works for web browser were created over the course of 4 months
         in tandem with several workshops. An overview of our workshop phase can
         be found
         <a href="/posts/about"> here</a>
+        <p> *a commision from BROWSER2021 </p>
       </div>
 
       <div className={styles.event}>
-        <h2>PACKETSPHERE: An Internet Travelogue</h2>
+        <h2>PACKETSPHERE: An Internet Travelogue*</h2>
         <h3>Zak Argabrite and Becky Brown</h3>
         <p>
           What does it take to send a single message halfway around the globe?
@@ -93,7 +97,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h2>THIS IS NOT A CONCERT</h2>
+        <h2>THIS IS NOT A CONCERT*</h2>
         <h3>Delia Ramos Rodríguez and Nikolay Suslov</h3>
         <p>
           Another perspective to what we normally (don't) see. The bowing after
@@ -132,7 +136,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h2>Data, please!</h2>
+        <h2>Data, please!*</h2>
         <h3>Jana De Troyer and Steffen Reichelt</h3>
         <p>
           Our online behavior is subject to marketing mechanisms. Clicks, likes,
@@ -179,7 +183,7 @@ export default function FirstPost() {
         <img src="/images/Dataplease-01.png" classname="image-test"></img>
       </div>
       <div className={styles.event}>
-        <h2>ANTI - A Netart Theory of Identity</h2>
+        <h2>ANTI - A Netart Theory of Identity*</h2>
         <h3>Carla and Rapo</h3>
 
         <p><code>
@@ -213,7 +217,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h2>Vyshyvanka.js</h2>
+        <h2>Vyshyvanka.js*</h2>
         <h3>Solomiya Moroz and Curt Miller</h3>
         <p>
           Vyshyvanka.js is a cross-stitch embroidery interface for drawing and
@@ -290,12 +294,22 @@ export default function FirstPost() {
           margin-top: 10px;
         }
 
-        
+        .grid {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+
+          max-width: 800px;
+          margin-top: 3rem;
+        }
 
         .grid-container{
           display:grid;
-          grid-template-columns: auto auto;
-          grid-template-rows: auto auto auto auto;
+          align-tiems: center;
+          justify-content: center;
+          grid-template-columns: auto auto auto auto;
+          grid-template-rows: auto auto;
           column-gap: 1em;
           /* row-gap: 1em;*/
         }
