@@ -2,10 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../../components/layout";
 import styles from "../../components/layout.module.css";
-// import SyntaxHighlighter from 'react-syntax-highlighter';
-// import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-
-
 
 export default function FirstPost() {
   return (
@@ -22,7 +18,8 @@ export default function FirstPost() {
       <div className="grid-container">
         <a href="https://us02web.zoom.us/j/81409840119?pwd=ZVd6dXVUWDdVUjNMQ1g4aHloMFJydz09" className="event yellow" > <p>
           <h4>Live Discussion - Zoom </h4>
-          19:00 CEST on Saturday and Sunday (12.07.21 and 13.07.21)
+          19:00 CEST<br/>Saturday and Sunday <br/>(12.07.21 and 13.07.21)
+          <img src="/images/ZoomRoom-1.png" classname="image-test"></img>
         </p>
         </a>
 
@@ -72,7 +69,7 @@ export default function FirstPost() {
         These new works for web browser were created over the course of 4 months
         in tandem with several workshops. An overview of our workshop phase can
         be found
-        <a href="/posts/about"> here</a>
+        <a href="/posts/about"> HERE</a>
         <p> *a commision from BROWSER2021 </p>
       </div>
 

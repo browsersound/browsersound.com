@@ -6,42 +6,50 @@ export default function FirstPost() {
   return (
     <Layout>
       <Head>
-        <title>Online Festival</title>
+        <title>Opens Friday June 11th</title>
       </Head>
       <p className="event">
-      <h1>Online Festival Grounds</h1>
+      <h1>Open on Friday June 11th</h1>
       <p>
-        BROWSER's 3-day festival will take place in virtual reality. Bookmark
-        this page, and come back on June 11th to experience the program live
-        with other online avatars.
+        See our scheduled programming:
       </p>
       </p>
       <div className="event">
       <h2>Friday June 11th</h2>
-        Open Gallery - all day <br /> interactive and installative works
+        <h3>Open Gallery - all day </h3>
       </div>
       
       <div className="event">
       <h2>Saturday June 12th</h2>
-        <h3>EVENT 1: 7:00-8:30pm (CEST) / 10:00-12:30am (PDT)</h3>
-        <p>Premiere and Presentation of New Works by:</p>
+        <h3>EVENT 1: 7:00-8:30pm (CEST) / 10:00am-12:30pm (PDT)</h3>
+        <p><a href="https://us02web.zoom.us/j/81409840119?pwd=ZVd6dXVUWDdVUjNMQ1g4aHloMFJydz09"> Over ZOOM</a>
+        : Premiere and Presentation of New Works by:</p>
         <ul>
-          <li>Delia Ramos Rodríguez + Nikolay Suslov</li>
-          <li>Jana De Troyer + Steffen Reichelt</li>
-          <li>Carla Tapparo + Rapo Francisco</li>
+          <li>Jana De Troyer + Steffen Reichelt<br />Data, please!</li>
+          <li>Carla Tapparo + Rapo Francisco<br />ANTI - A Netart Theory of Identity</li>
+          <li>Brandon Lincoln Snyder + Nikola Lutz <br />(presenting BROWSER as a whole)</li>
+          <li>Delia Ramos Rodríguez + Nikolay Suslov<br />THIS IS NOT A CONCERT</li>
         </ul>
-        <p>Open Gallery - all day</p>
+        <h3>EVENT 2: 8:30-9:30pm (CEST) / 12:30-1:30pm (PDT)</h3>
+        <p><a href="https://www.twitch.tv/browsersound"> Over LIVESTREAM</a>
+        : Post-presentation twitch stream from Zak Argabrite</p>
+        <h3>Open Gallery - all day </h3>
       </div>
       <div className="event">
         <h2>Sunday June 13th</h2>
-        <h3>EVENT 2: 7:00-8:30pm (CEST) / 10:00-12:30am (PDT)</h3>
-        <p>Premiere and Presentation of New Works by:</p>
+        <h3>EVENT 3: 7:00-8:30pm (CEST) / 10:00am-12:30pm (PDT)</h3>
+        <p><a href="https://us02web.zoom.us/j/81409840119?pwd=ZVd6dXVUWDdVUjNMQ1g4aHloMFJydz09"> Over ZOOM</a>
+        : Premiere and Presentation of New Works by:</p>
         <ul>
-          <li>Solomiya Moroz + Curt Miller</li>
-          <li>Zak Argabrite + Becky Brown</li>
-          <li>Kevin CK Lo</li>
+          <li>Solomiya Moroz + Curt Miller<br/>Vyshyvanka.js</li>
+          <li>Zak Argabrite + Becky Brown<br/>PACKETSPHERE: An Internet Travelogue</li>
+          <li>Brandon Lincoln Snyder + Workshop Participants<br />(presenting the BROWSER workshops)</li>
+          <li>Kevin CK Lo<br/>Return the Eye - retrospective and futures</li>
         </ul>
-        <p>Open Gallery - all day</p>
+        <h3>EVENT 4: 8:30-9:30pm (CEST) / 12:30-1:30pm (PDT)</h3>
+        <p><a href="https://www.twitch.tv/browsersound"> Over LIVESTREAM</a>
+        : Post-presentation twitch stream from Brandon Lincoln Snyder</p>
+        <h3>Open Gallery - all day </h3>
         </div>
 
         <div className="event">

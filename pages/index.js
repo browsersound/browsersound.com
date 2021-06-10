@@ -41,15 +41,15 @@ export default function Home({ allPostsData }) {
         <div className="grid">
           <a href="/posts/mozillahubs" className="card">
             <h3>
-              Virtual Festival{" "}
+              VR Festival{" "}
               <span className={utilStyles.noBreak}>Grounds &rarr;</span>
             </h3>
             <p>
-              Experience the festival through your own VR Avatar (CPU-intensive)
+              Experience through your own VR Avatar (CPU-intensive)
             </p>
           </a>
 
-          <a href="/posts/open-gallery" className="card">
+          <a href="/posts/mozillahubs" className="card">
             <h3>
               Open Gallery{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
@@ -62,7 +62,7 @@ export default function Home({ allPostsData }) {
           <a Link href="https://www.twitch.tv/browsersound" className="card">
             <h3 className={utilStyles.noBreak}>Livestream &rarr;</h3>
             <p>
-              Live presentations and walkthroughs of each piece (Saturday and Sunday from 19:00 CEST)
+              See our livestream schedule on the About page.
             </p>
           </a>
 
@@ -72,7 +72,7 @@ export default function Home({ allPostsData }) {
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
-            the featured pieces, and our open workshops
+            the featured pieces, festival schedule, and our open workshops
             </p>
           </a>
 
@@ -179,6 +179,10 @@ export default function Home({ allPostsData }) {
 
         a {
           color: inherit;
+          text-decoration: none;
+        }
+        a2 {
+          color: #fae102;
           text-decoration: none;
         }
 
