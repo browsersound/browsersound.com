@@ -49,7 +49,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a href="/posts/mozillahubs" className="card">
+          <a href="/posts/open-gallery" className="card">
             <h3>
               Open Gallery{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
@@ -239,7 +239,7 @@ export default function Home({ allPostsData }) {
 
         .grid {
           display: grid;
-          grid-template-columns: repeat(3, minmax(0, 1fr));;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
           grid-template-rows: auto;
           max-width: 800px;
           margin-top: 3rem;
