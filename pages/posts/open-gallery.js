@@ -19,48 +19,49 @@ export default function FirstPost() {
       </p>
 
       <div className="grid-container">
-        <div className={styles.event}>
+        <div className="event-grid" >
           <h4>PACKETSPHERE: An Internet Travelogue</h4>
           <p>Zak Argabrite and Becky Brown</p>
           <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
           <a href="http://bit.ly/packetsphere">bit.ly/packetsphere</a>
         </div>
-        <div className={styles.event}>
-        <h4>THIS IS NOT A CONCERT</h4>
+        <div className="event-grid">
+          <h4>THIS IS NOT A CONCERT</h4>
           <p>Delia Ramos Rodríguez and Nikolay Suslov</p>
           <img src="/images/bowing.jpg" classname="image-test"></img>
           <a href="https://concert.livecoding.space">concert.livecoding.space</a></div>
-        <div className={styles.event}>
-        <h4>Data, please!</h4>
+        <div className="event-grid">
+          <h4>Data, please!</h4>
           <p>Jana De Troyer and Steffen Reichelt</p>
 
           <img src="/images/Dataplease-01.png" classname="image-test"></img>
           <a href="https://dataplease.steffenreichelt.de/">dataplease.steffenreichelt.de</a></div>
-        <div className={styles.event}>
-        <h4>ANTI - A Netart Theory of Identity</h4>
+        <div className="event-grid">
+          <h4>ANTI - A Netart Theory of Identity</h4>
           <p>Carla and Rapo</p>
 
           <img src="/images/anti - rapofran.jpg" classname="image-test"></img>
           <a href="https://anti-a-netart-theory-of-identity.gitlab.io/init-2/">anti-a-netart-theory-of-identity.gitlab.io/init-2</a></div>
-        <div className={styles.event}>
-        <h4>Vyshyvanka.js</h4>
+        <div className="event-grid">
+          <h4>Vyshyvanka.js</h4>
           <p>Solomiya Moroz and Curt Miller</p>
           <img src="/images/StarInterface.png" classname="image-test"></img>
           <a href="https://vyshyvanka-js.com/">vyshyvanka-js.com</a></div>
-        <div className={styles.event}>
-        <h4>Return the Eye - retrospective and futures</h4>
+        <div className="event-grid">
+          <h4>Return the Eye - retrospective and futures</h4>
           <p>Kevin CK Lo</p>
           <img src="/images/rte-3.png" classname="image-test"></img>
           <a href="https://cloacaprojects.com/returntheeye/">cloacaprojects.com/returntheeye</a>
         </div>
-        <div className={styles.event}>
-        <h4>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h4>
+        <div className="event-grid">
+          <h4>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h4>
           <p>Brandon Lincoln Snyder, Christian Espinosa Schatz, Henry Sales, and Ethan Lee</p>
-          <img src="/images/trailer-02-trim-02.gif" classname="image-test"></img>
+          <img src="/images/firewood.png" classname="image-test"></img>
           <a href="https://browsersound.com/posts/firewood-corn-weaving">browsersound.com/posts/firewood-corn-weaving</a></div>
-        <div className={styles.event}> <p>
-          Presentations of the Projects
-          19:00 CEST on Saturday and Sunday (12.07.21 and 13.07.21)
+        <div className="event-grid">
+          <p>
+            <h4>Presentations of the Projects</h4>
+            19:00 CEST on Saturday and Sunday (12.07.21 and 13.07.21)
         </p>
           <p>
             <a href="https://us02web.zoom.us/j/81409840119?pwd=ZVd6dXVUWDdVUjNMQ1g4aHloMFJydz09">Zoom Link</a>
@@ -290,14 +291,29 @@ export default function FirstPost() {
           margin-top: 10px;
         }
 
-        
+        .event-grid {
+          margin: 0;
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
+        }
 
         .grid-container{
           display:grid;
           grid-template-columns: auto auto;
           grid-template-rows: auto auto auto auto;
           column-gap: 1em;
-          /* row-gap: 1em;*/
+          row-gap: 1em;
+        }
+
+        @media (max-width: 700px) {
+          .grid-container{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            column-gap: 1em;
+            row-gap: 1em;
+          }
         }
 
       `}</style>
