@@ -20,54 +20,50 @@ export default function FirstPost() {
       </p>
 
       <div className="grid-container">
-        <div className={styles.event}>
+        <a href="https://us02web.zoom.us/j/81409840119?pwd=ZVd6dXVUWDdVUjNMQ1g4aHloMFJydz09" className="event yellow" > <p>
+          <h4>Live Discussion - Zoom </h4>
+          19:00 CEST on Saturday and Sunday (12.07.21 and 13.07.21)
+        </p>
+        </a>
+
+        <a className="event" href="http://bit.ly/packetsphere">
           <h4>PACKETSPHERE: An Internet Travelogue</h4>
           <p>Zak Argabrite and Becky Brown</p>
           <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
-
-          
-          <a href="http://bit.ly/packetsphere">bit.ly/packetsphere</a>
-        </div>
-        <div className={styles.event}>
-        <h4>THIS IS NOT A CONCERT</h4>
+        </a>
+        <a href="https://concert.livecoding.space" className="event">
+          <h4>THIS IS NOT A CONCERT</h4>
           <p>Delia Ramos Rodríguez and Nikolay Suslov</p>
           <img src="/images/bowing.jpg" classname="image-test"></img>
-          <a href="https://concert.livecoding.space">concert.livecoding.space</a></div>
-        <div className={styles.event}>
-        <h4>Data, please!</h4>
+        </a>
+        <a href="https://dataplease.steffenreichelt.de/" className="event">
+          <h4>Data, please!</h4>
           <p>Jana De Troyer and Steffen Reichelt</p>
 
           <img src="/images/Dataplease-01.png" classname="image-test"></img>
-          <a href="https://dataplease.steffenreichelt.de/">dataplease.steffenreichelt.de</a></div>
-        <div className={styles.event}>
-        <h4>ANTI - A Netart Theory of Identity</h4>
+        </a>
+        <a href="https://anti-a-netart-theory-of-identity.gitlab.io/init-2/" className="event">
+          <h4>ANTI - A Netart Theory of Identity</h4>
           <p>Carla and Rapo</p>
 
           <img src="/images/anti - rapofran.jpg" classname="image-test"></img>
-          <a href="https://anti-a-netart-theory-of-identity.gitlab.io/init-2/">anti-a-netart-theory-of-identity.gitlab.io/init-2</a></div>
-        <div className={styles.event}>
-        <h4>Vyshyvanka.js</h4>
+        </a>
+
+        <a href="https://vyshyvanka-js.com/" className="event">
+          <h4>Vyshyvanka.js</h4>
           <p>Solomiya Moroz and Curt Miller</p>
           <img src="/images/StarInterface.png" classname="image-test"></img>
-          <a href="https://vyshyvanka-js.com/">vyshyvanka-js.com</a></div>
-        <div className={styles.event}>
-        <h4>Return the Eye - retrospective and futures</h4>
+        </a>
+        <a href="https://cloacaprojects.com/returntheeye/" className="event">
+          <h4>Return the Eye - retrospective and futures</h4>
           <p>Kevin CK Lo</p>
           <img src="/images/rte-3.png" classname="image-test"></img>
-          <a href="https://cloacaprojects.com/returntheeye/">cloacaprojects.com/returntheeye</a>
-        </div>
-        <div className={styles.event}>
-        <h4>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h4>
+        </a>
+        <a href="https://browsersound.com/posts/firewood-corn-weaving" className="event">
+          <h4>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h4>
           <p>Brandon Lincoln Snyder, Christian Espinosa Schatz, Henry Sales, and Ethan Lee</p>
           <img src="/images/firewood.png" classname="image-test" ></img>
-          <a href="https://browsersound.com/posts/firewood-corn-weaving">browsersound.com/posts/firewood-corn-weaving</a></div>
-        <div className={styles.event2}> <p>
-        <h4>Live Discussion</h4>
-          19:00 CEST on Saturday and Sunday (12.07.21 and 13.07.21)
-        </p>
-          <p>
-            <a href="https://us02web.zoom.us/j/81409840119?pwd=ZVd6dXVUWDdVUjNMQ1g4aHloMFJydz09">Zoom Link</a>
-          </p></div>
+        </a>
       </div>
 
       <div className={styles.event}>
@@ -308,14 +304,38 @@ export default function FirstPost() {
           display:grid;
           align-tiems: center;
           justify-content: center;
-          // grid-template-columns: repeat(4, minmax(0, 1fr));
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          // grid-template-columns: repeat(4, 1fr);
           grid-template-rows: auto;
           column-gap: 1em;
-          /* row-gap: 1em;*/
+          row-gap: 1em;
+        }
+
+        .event {
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
+          text-decoration: none;
+          transition: color 0.15s ease, border-color 0.15s ease;
+        }
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        .event:hover,
+        .event:focus,
+        .event:active {
+          color: #0070f3;
+          border-color: #0070f3;
+        }
+
+        .yellow{
+          background: #ffe263;
         }
 
       `}</style>
-    </Layout>
+    </Layout >
   );
 }
