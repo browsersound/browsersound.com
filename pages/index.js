@@ -238,11 +238,9 @@ export default function Home({ allPostsData }) {
         }
 
         .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));;
+          grid-template-rows: auto;
           max-width: 800px;
           margin-top: 3rem;
         }
@@ -300,10 +298,11 @@ export default function Home({ allPostsData }) {
           z-index: -1;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
           .grid {
             width: 100%;
-            flex-direction: column;
+            grid-template-columns: auto ;
+            grid-template-rows: auto;
           }
         }
       `}</style>
