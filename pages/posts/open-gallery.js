@@ -48,17 +48,18 @@ export default function FirstPost() {
 
           <img src="/images/anti - rapofran.jpg" classname="image-test"></img>
         </a>
+        <a href="https://cloacaprojects.com/returntheeye/" className="event">
+          <h4>Return the Eye - retrospective and futures</h4>
+          <p>Kevin CK Lo</p>
+          <img src="/images/rte-3.png" classname="image-test"></img>
+        </a>
 
         <a href="https://vyshyvanka-js.com/" className="event">
           <h4>Vyshyvanka.js</h4>
           <p>Solomiya Moroz and Curt Miller</p>
           <img src="/images/StarInterface.png" classname="image-test"></img>
         </a>
-        <a href="https://cloacaprojects.com/returntheeye/" className="event">
-          <h4>Return the Eye - retrospective and futures</h4>
-          <p>Kevin CK Lo</p>
-          <img src="/images/rte-3.png" classname="image-test"></img>
-        </a>
+
         <a href="https://browsersound.com/posts/firewood-corn-weaving" className="event">
           <h4>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h4>
           <p>Brandon Lincoln Snyder, Christian Espinosa Schatz, Henry Sales, and Ethan Lee</p>
@@ -290,25 +291,22 @@ export default function FirstPost() {
           margin-top: 10px;
         }
 
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
         .grid-container{
           display:grid;
-          align-tiems: center;
-          justify-content: center;
           grid-template-columns: repeat(2, minmax(0, 1fr));
-          // grid-template-columns: repeat(4, 1fr);
           grid-template-rows: auto;
           column-gap: 1em;
           row-gap: 1em;
+        }
+
+        @media (max-width: 600px) {
+        .grid-container{
+          display:grid;
+          grid-template-columns: auto;
+          grid-template-rows: auto;
+          column-gap: 1em;
+          row-gap: 1em;
+        }
         }
 
         .event {
