@@ -194,17 +194,10 @@ export default function FirstPost() {
           interface, this energy is represented by a combination of note
           patterns sonified through different synths in Tone.js.
         </p>
+    
+        <img src="https://media.giphy.com/media/x5eJCbjGVoYGP1hMzj/giphy.gif" classname="image-test"></img>
         <p>
-          Solomiya and Curt took inspiration from Tom Johnson’s illustrated music in which he
-          signifies different geometrical shapes by calculating repeatable note
-          instances for different triangles, squares and block patterns. In the
-          star shape, the triangles and squares use the repeating patterns
-          centred around D Dorian and C Aeolian modes. These modes are
-          representative of early Ukrainian traditional music. Thus the driving
-          energy of the repeatable patterns with geometrical considerations for
-          repeatability of certain notes within a D Dorian mode through Tone.js
-          synths patterns and sequences is what the user mostly hears when
-          interacting with the star-shaped instrumental interface. The interface
+          The interface
           is designed with delay, reverb, pitch-shift up and down at each corner
           of the star diamond. Also, one can change the velocity and volume of
           the patterns by clicking on four black corners of the star design.
