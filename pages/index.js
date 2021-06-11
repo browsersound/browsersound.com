@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
        
         <div className="grid-container">
         <div className="grid">
-          <a href="/posts/mozillahubs" className="card">
+          <a href="https://hubs.mozilla.com/Dg5GJC3/browser-2021-festival/" className="card">
             <h3>
               VR Festival{" "}
               <span className={utilStyles.noBreak}>Grounds &rarr;</span>
@@ -49,7 +49,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a href="/posts/mozillahubs" className="card">
+          <a href="/posts/open-gallery" className="card">
             <h3>
               Open Gallery{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>

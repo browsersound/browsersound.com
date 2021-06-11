@@ -17,6 +17,8 @@ export default function FirstPost() {
       <div className="event">
       <h2>Friday June 11th</h2>
         <h3>Open Gallery - all day </h3>
+        <p>View the project in our <a href="https://hubs.mozilla.com/Dg5GJC3/browser-2021-festival/"> VR space </a> 
+        or on <a href="/posts/open-gallery"> our website</a>.</p>
       </div>
       
       <div className="event">
@@ -34,6 +36,8 @@ export default function FirstPost() {
         <p><a href="https://www.twitch.tv/browsersound"> Over LIVESTREAM</a>
         : Post-presentation twitch stream from Zak Argabrite</p>
         <h3>Open Gallery - all day </h3>
+        <p>View the project in our <a href="https://hubs.mozilla.com/Dg5GJC3/browser-2021-festival/"> VR space </a> 
+        or on <a href="/posts/open-gallery"> our website</a>.</p>
       </div>
       <div className="event">
         <h2>Sunday June 13th</h2>
@@ -50,6 +54,8 @@ export default function FirstPost() {
         <p><a href="https://www.twitch.tv/browsersound"> Over LIVESTREAM</a>
         : Post-presentation twitch stream from Brandon Lincoln Snyder</p>
         <h3>Open Gallery - all day </h3>
+        <p>View the project in our <a href="https://hubs.mozilla.com/Dg5GJC3/browser-2021-festival/"> VR space </a> 
+        or on <a href="/posts/open-gallery"> our website</a>.</p>
         </div>
 
         <div className="event">
