@@ -16,12 +16,17 @@ export default function FirstPost() {
 
       <p className={styles.event}>
         <h1>BROWSER's Featured Works</h1>
-        Program notes down below. 
-        <br/>FESTIVAL SCHEDULE
-         <a href="/posts/mozillahubs"> HERE</a>.
-         <br/>To read about our workshops, click
-         <a href="/posts/about"> here</a>.
 
+        FESTIVAL SCHEDULE
+         <a href="/posts/mozillahubs"> HERE</a>.
+         <br/>ABOUT OUR WORKSHOPS
+         <a href="/posts/about"> HERE</a>.
+         <br/>PROJECTS SOURCE CODE 
+         <a href="https://github.com/BrowserMusic"> HERE</a>.
+
+         <br/>FESTIVAL CREDITS 
+         <a href="/posts/credits"> HERE</a>.
+      
       </p>
 
       <div className={styles.event}>
