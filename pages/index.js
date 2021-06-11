@@ -72,7 +72,7 @@ export default function Home({ allPostsData }) {
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
-            the featured pieces, festival schedule, and our open workshops
+            the featured pieces, festival schedule, our open workshops, and code.
             </p>
           </a>
 
