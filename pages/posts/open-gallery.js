@@ -70,6 +70,7 @@ export default function FirstPost() {
         in tandem with several workshops. An overview of our workshop phase can
         be found
         <a href="/posts/about"> HERE</a>
+        <p> View source code for each project on our <a href="https://github.com/BrowserMusic"> Github</a>.</p>
         <p> *a commision from BROWSER2021 </p>
       </div>
 
