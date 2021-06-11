@@ -39,7 +39,7 @@ export default function FirstPost() {
 
           <img src="/images/Dataplease-01.png" classname="image-test"></img>
         </a>
-        <a href="https://anti-a-netart-theory-of-identity.gitlab.io/init-2/" className="event">
+        <a href="https://anti-a-netart-theory-of-identity.gitlab.io/init-1/" className="event">
           <h4>ANTI - A Netart Theory of Identity</h4>
           <p>Carla and Rapo</p>
 
