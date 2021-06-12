@@ -57,7 +57,8 @@ export default function FirstPost() {
           </li></ul>
 
           <p></p>
-          Big thank you to Steffen Reichelt, Curt Miller, and Ethan Lee, who taught me how to built this website. 
+          Big thank you to Steffen Reichelt, Curt Miller, and Ethan Lee, who taught me how to built this website.
+          Thank you Solomiya Moroz and Nikolay Suslov for building our VR concert hall in Mozilla Hubs.
           Thank you Jana De Troyer for the big help with marketing BROWSER2021. Thank you to Simone Enge and the 
           Hochschule für Musikand Darstellende Kunst for being the first financial supporters of this project.
           Thank you again, Nikola, for your wisdom and support. You helped make this first instance of BROWSER run 
