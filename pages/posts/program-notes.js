@@ -30,14 +30,15 @@ export default function FirstPost() {
       </p>
 
       <div className={styles.event}>
-        <h2>PACKETSPHERE: An Internet Travelogue</h2>
+        <h2><a href="http://bit.ly/packetsphere"> PACKETSPHERE: An Internet Travelogue</a></h2>
         <h3>Zak Argabrite and Becky Brown</h3>
         <p>
           What does it take to send a single message halfway around the globe?
           What issues exist in the technological world just below the surface of
           your keyboard? Come join Zak, Becky, and a colorful cast of digital
           characters for a look into the grand tour you initiate every time you
-          send a phrase as simple as "hello."
+          send a phrase as simple as "hello." 
+         
         </p>
         {/* <Image
           src="/images/Becky-Brown-01.png"
@@ -54,7 +55,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h2>THIS IS NOT A CONCERT</h2>
+        <h2><a href="https://concert.livecoding.space">THIS IS NOT A CONCERT</a></h2>
         <h3>Delia Ramos Rodríguez and Nikolay Suslov</h3>
         <p>
           Another perspective to what we normally (don't) see. The bowing after
@@ -93,7 +94,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h2>Data, please!</h2>
+        <h2><a href="https://dataplease.steffenreichelt.de/">Data, please!</a></h2>
         <h3>Jana De Troyer and Steffen Reichelt</h3>
         <p>
           Our online behavior is subject to marketing mechanisms. Clicks, likes,
@@ -142,7 +143,7 @@ export default function FirstPost() {
         <img src="/images/Dataplease-01.png" classname="image-test"></img>
       </div>
       <div className={styles.event}>
-        <h2>ANTI - A Netart Theory of Identity</h2>
+        <h2><a href="https://anti-a-netart-theory-of-identity.gitlab.io/init-1/">ANTI - A Netart Theory of Identity</a></h2>
         <h3>Carla and Rapo</h3>
           
         <p><code>
@@ -176,7 +177,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h2>Vyshyvanka.js</h2>
+        <h2><a href="https://vyshyvanka-js.com/">Vyshyvanka.js</a></h2>
         <h3>Solomiya Moroz and Curt Miller</h3>
         <p>
           Vyshyvanka.js is a cross-stitch embroidery interface for drawing and
@@ -210,7 +211,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-      <h2>Return the Eye - retrospective and futures</h2>
+      <h2><a href="https://cloacaprojects.com/returntheeye/">Return the Eye - retrospective and futures</a></h2>
         <h3>Kevin CK Lo</h3>
         <p>Kevin will summarize Return the Eye, an online exhibit presented by Cloaca Projects (SF) that 
           ran December 2020 through February 2021. This work telematically joined viewers in controlling 
@@ -243,7 +244,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-      <h2>Firewood Corn Weaving - decolonizing ethnoclimatology and indigenizing climate change</h2>
+      <h2><a href="https://browsersound.com/posts/firewood-corn-weaving">Firewood Corn Weaving</a> - decolonizing ethnoclimatology and indigenizing climate change</h2>
         <h3>Brandon Lincoln Snyder, Christian Espinosa Schatz, Henry Sales, and Ethan Lee</h3>
         
         <p>Firewood Corn Weaving is a mobile web experience that pieces together videos, 

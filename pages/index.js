@@ -3,6 +3,7 @@ import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
 import Image from "next/image";
 import utilStyles from "../styles/utils.module.css";
+// import Document, { Html, Head, Main, NextScript } from "next/document"
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -17,9 +18,22 @@ export default function Home({ allPostsData }) {
   return (
     <div className="container">
       <Head>
+        {/* google analytics tag
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9Z6QN5JV2"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-S9Z6QN5JV2');
+          </script> */}
+
+
         <title>BROWSER | Festival for Web-based Music</title>
         <link rel="icon" href="/browser-logo.ico" />
+         
       </Head>
+     
 
       <main>
         <h1 className="title">
