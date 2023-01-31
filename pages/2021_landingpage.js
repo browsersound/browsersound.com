@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
@@ -342,3 +343,4 @@ export default function Home({ allPostsData }) {
     </div>
   );
 }
+
