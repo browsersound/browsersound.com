@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-          <Link href="/posts/posts_2021/program-notes_2021">
+          <Link href="/posts/program-notes_2021">
             <a>2021</a>
           </Link>
         </h1>
@@ -64,7 +64,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a href="/posts/posts_2021/open-gallery_2021" className="card">
+          <a href="/posts/open-gallery_2021" className="card">
             <h3>
               Open Gallery{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
@@ -83,7 +83,7 @@ export default function Home({ allPostsData }) {
 
           </div>
 
-          <a Link href="/posts/posts_2021/program-notes_2021" className="card">
+          <a Link href="/posts/program-notes_2021" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
