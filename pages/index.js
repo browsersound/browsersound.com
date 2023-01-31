@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
         <h1 className="title">
           BROWSER SOUND {""}
           <Link href="/posts/program-notes">
-            <a>2021</a>
+            <a>2023</a>
           </Link>
         </h1>
 
