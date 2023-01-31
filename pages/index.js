@@ -39,16 +39,18 @@ export default function Home({ allPostsData }) {
         <h1 className="title">
           BROWSER SOUND {""}
           <Link href="/posts/program-notes">
-            <a>2021</a>
+            <a>2023</a>
           </Link>
+          :
         </h1>
+        <h1>Location Sharing</h1>
 
         <p className="description">
           A Festival of Web-based Music | July 22nd-23rd
         </p>
 
         <p className="description2">
-          Three Ways to Experience the Festival:
+          Stuttgart & Online
         </p>
        
         <div className="grid-container">
