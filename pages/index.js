@@ -55,7 +55,7 @@ export default function Home({ allPostsData }) {
        
         <div className="grid-container">
         <div className="grid">
-          <a href="https://hubs.mozilla.com/Dg5GJC3/browser-2021-festival/" className="card">
+          <a href="/posts/wip_page" className="card">
             <h3>
               Workshop and Reading Session{" "}
               <span className={utilStyles.noBreak}>Grounds &rarr;</span>
@@ -65,7 +65,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a href="/posts/open-gallery" className="card">
+          <a href="https://docs.google.com/document/d/1md0RBUd-sUapcKbcg0hSPw4pVCK-CVCj1G0OC6ysXIk/edit?usp=sharing" className="card">
             <h3>
               Call for Proposals{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
