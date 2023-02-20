@@ -43,7 +43,7 @@ export default function Home({ allPostsData }) {
           </Link>
           :
         </h1>
-        <h1>Location Sharing</h1>
+        <h1 className="title">Location Sharing</h1>
 
         <p className="description">
           A Festival of Web-based Music | July 22nd-23rd
@@ -57,28 +57,28 @@ export default function Home({ allPostsData }) {
         <div className="grid">
           <a href="https://hubs.mozilla.com/Dg5GJC3/browser-2021-festival/" className="card">
             <h3>
-              VR Festival{" "}
+              Workshop and Reading Session{" "}
               <span className={utilStyles.noBreak}>Grounds &rarr;</span>
             </h3>
             <p>
-              Experience through your own VR Avatar (CPU-intensive)
+              Register for our online, 6-part workshop in web audio, as well as our remote/in-person reading session with our ensemble.
             </p>
           </a>
 
           <a href="/posts/open-gallery" className="card">
             <h3>
-              Open Gallery{" "}
+              Call for Proposals{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
             <p>
-              Simply check out the pieces on this website
+              Apply to our commision project with DigiScore
             </p>
           </a>
           
           <a Link href="https://www.twitch.tv/browsersound" className="card">
-            <h3 className={utilStyles.noBreak}>Livestream &rarr;</h3>
+            <h3 className={utilStyles.noBreak}>Events and Location &rarr;</h3>
             <p>
-              See our livestream schedule on the About page.
+              Times and places where Browser Sound will be taking place.
             </p>
           </a>
 
@@ -88,7 +88,7 @@ export default function Home({ allPostsData }) {
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
-            the featured pieces, festival schedule, our open workshops, and code.
+            About our festival, our past commisions, workshops, and code.
             </p>
           </a>
 
@@ -101,8 +101,7 @@ export default function Home({ allPostsData }) {
               Remind <span className={utilStyles.noBreak}>Me! &rarr;</span>
             </h3>
             <p>
-              Email reminder + Facebook Event for when the festival is about to
-              begin.
+              Join our email list to get up to date with this years festival
             </p>
           </a>
         </div>
