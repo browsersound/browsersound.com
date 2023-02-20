@@ -69,13 +69,13 @@ export default function Home({ allPostsData }) {
             <h3>
               Call for Proposals{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
-            </h3>
+            </h3> 
             <p>
               Apply to our commision project with DigiScore
             </p>
           </a>
           
-          <a Link href="https://www.twitch.tv/browsersound" className="card">
+          <a Link href="/posts/wip_page" className="card">
             <h3 className={utilStyles.noBreak}>Events and Location &rarr;</h3>
             <p>
               Times and places where Browser Sound will be taking place.
@@ -84,7 +84,7 @@ export default function Home({ allPostsData }) {
 
           </div>
 
-          <a Link href="/posts/program-notes" className="card">
+          <a Link href="/posts/wip_page" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
