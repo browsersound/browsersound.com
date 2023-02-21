@@ -15,11 +15,11 @@ export default function FirstPost() {
       </Head>
 
       <p className={styles.event}>
-        <h1>BROWSER's Featured Works</h1>
+        <h1>BROWSER's 2021 Featured Works</h1>
 
-        This is a record of our 2021 Festival. Check back soon for our 2023 Schedule!
+         This is a record of our 2021 Festival. Check back soon for our 2023 Schedule!
 
-        FESTIVAL SCHEDULE
+        <br/>FESTIVAL SCHEDULE
          <a href="/posts/posts_2021/mozillahubs_2021"> HERE</a>.
          <br/>ABOUT OUR WORKSHOPS
          <a href="/posts/posts_2021/about_2021"> HERE</a>.
