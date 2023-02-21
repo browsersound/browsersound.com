@@ -38,9 +38,9 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-          <Link href="/posts/program-notes">
+           <Link href="/posts/program-notes">
             <a>2023</a>
-          </Link>
+         </Link>
           :
         </h1>
         <h1 className="title">Location Sharing</h1>
@@ -65,7 +65,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a href="https://docs.google.com/document/d/1md0RBUd-sUapcKbcg0hSPw4pVCK-CVCj1G0OC6ysXIk/edit?usp=sharing" className="card">
+          <a href="https://drive.google.com/file/d/1Fzy4We9CXB0LP2f2ZRRGp3sflmzHcK3i/view?usp=sharing" className="card">
             <h3>
               Call for Proposals{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
@@ -76,7 +76,10 @@ export default function Home({ allPostsData }) {
           </a>
           
           <a Link href="/posts/wip_page" className="card">
-            <h3 className={utilStyles.noBreak}>Events and Location &rarr;</h3>
+            <h3> 
+              Events and Location{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
             <p>
               Times and places where Browser Sound will be taking place.
             </p>
@@ -84,7 +87,7 @@ export default function Home({ allPostsData }) {
 
           </div>
 
-          <a Link href="/posts/wip_page" className="card">
+          <a Link href="/posts/about_2021" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
