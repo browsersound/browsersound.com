@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
         <div className={styles.headerDescription}>
           <p>A Festival of Web-based Music </p>
           <div className={styles.divider}></div>
-          <p className={utilStyles.noBreak}>June 11th-13th</p>
+          <p className={utilStyles.noBreak}>July 21st-22nd 2023</p>
         </div>
       </header>
       <main>{children}</main>
