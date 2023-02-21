@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-           <Link href="/posts/program-notes">
+           <Link href="/posts/wip_page">
             <a>2023</a>
          </Link>
           :
@@ -87,7 +87,7 @@ export default function Home({ allPostsData }) {
 
           </div>
 
-          <a Link href="/posts/about_2021" className="card">
+          <a Link href="/posts/program-notes_2021" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>

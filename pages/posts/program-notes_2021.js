@@ -11,11 +11,13 @@ export default function FirstPost() {
   return (
     <Layout>
       <Head>
-        <title>Festival Proceedings</title>
+        <title>2021 Festival Proceedings</title>
       </Head>
 
       <p className={styles.event}>
         <h1>BROWSER's Featured Works</h1>
+
+        This is a record of our 2021 Festival. Check back soon for our 2023 Schedule!
 
         FESTIVAL SCHEDULE
          <a href="/posts/posts_2021/mozillahubs_2021"> HERE</a>.
