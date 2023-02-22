@@ -36,8 +36,8 @@ export default function FirstPost() {
           layout="responsive"
         /> */}
         <figure> 
-        <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
-         <figcaption>PACKETSPHERE: An Internet Travelogue, by Zak Argabrite and Becky Brown - A Browser Sound 2021 Commission.</figcaption>
+        <img src="/images/ZoomRoom-1.png" classname="image-test"></img>
+         <figcaption>Laurens Inauen's Workshop from Browser Sound 2021</figcaption>
          </figure>
       
       </div>
@@ -45,8 +45,8 @@ export default function FirstPost() {
       <div className={styles.event}>
         <h2>Concert</h2>
          
-        <h3>July 21st (Evening)</h3>
-        <h3><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany & Online</h3>
+        <h4>July 21st (Evening)</h4>
+        <h4><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany & Online</h4>
 
         <p>
          A concert of new works that exist simulatneously online and in-person. A hybrid ensemble of in-person and remote musicians and coders will premiere the new works. 
@@ -54,13 +54,18 @@ export default function FirstPost() {
         <p> 
         One of these works will be commisioned from our call for porposals. <a href="https://drive.google.com/file/d/1Fzy4We9CXB0LP2f2ZRRGp3sflmzHcK3i/view?usp=sharing">Submit here</a>.
         </p>
+
+        <figure> 
+        <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+         <figcaption>PACKETSPHERE: An Internet Travelogue, by Zak Argabrite and Becky Brown - A Browser Sound 2021 Commission.</figcaption>
+         </figure>
         
       </div>
 
       <div className={styles.event}>
         <h2>Show-and-Tell</h2>
-        <h3>July 22nd (Afternoon) </h3>
-        <h3>Stuttgart, Germany & Online</h3>
+        <h4>July 22nd (Afternoon) </h4>
+        <h4>Stuttgart, Germany & Online</h4>
         <p>
           For an afternoon, artists will give presentations of their works. Open for any artist to contribute. Registration link forthcoming. This is an opportuntiy for the community to share with one another what they have been working on, and to be inspired by one another.
         </p>
@@ -82,8 +87,8 @@ export default function FirstPost() {
       </div>
       <div className={styles.event}>
         <h2>Reading Session</h2>
-        <h3>July 22nd Evening</h3>
-        <h3>Stuttgart, Germany & Online</h3>
+        <h4>July 22nd Evening</h4>
+        <h4>Stuttgart, Germany & Online</h4>
           
         <p>
         Participants of the workshop will present a final project in the format of an informal concert / show-and-tell. Participants will have the opportunity to work with Browser Sound's hybrid ensemble of in-person and remote musicians/coders.
@@ -94,7 +99,7 @@ export default function FirstPost() {
       {codeString}
     </SyntaxHighlighter> */}
         <figure> 
-        <img src="/images/StarInterface.png" classname="image-test"></img>
+        <img src="https://media.giphy.com/media/x5eJCbjGVoYGP1hMzj/giphy.gif" classname="image-test"></img>
          <figcaption>vyshyvanka.js, by Solomiya Moroz and Curt Miller - A Browser Sound 2021 Commission.</figcaption>
          </figure>
         
