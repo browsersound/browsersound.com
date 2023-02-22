@@ -46,7 +46,8 @@ export default function FirstPost() {
         <h2>Concert</h2>
          
         <h4>July 21st (Evening)</h4>
-        <h4><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany & Online</h4>
+        <h4><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany</h4>
+        <h4>Online</h4>
 
         <p>
          A concert of new works that exist simulatneously online and in-person. A hybrid ensemble of in-person and remote musicians and coders will premiere the new works. 
@@ -65,7 +66,8 @@ export default function FirstPost() {
       <div className={styles.event}>
         <h2>Show-and-Tell</h2>
         <h4>July 22nd (Afternoon) </h4>
-        <h4>Stuttgart, Germany & Online</h4>
+        <h4>Stuttgart, Germany</h4>
+        <h4>Online</h4>
         <p>
           For an afternoon, artists will give presentations of their works. Open for any artist to contribute. Registration link forthcoming. This is an opportuntiy for the community to share with one another what they have been working on, and to be inspired by one another.
         </p>
@@ -88,7 +90,8 @@ export default function FirstPost() {
       <div className={styles.event}>
         <h2>Reading Session</h2>
         <h4>July 22nd Evening</h4>
-        <h4>Stuttgart, Germany & Online</h4>
+        <h4>Stuttgart, Germany</h4>
+        <h4>Online</h4>
           
         <p>
         Participants of the workshop will present a final project in the format of an informal concert / show-and-tell. Participants will have the opportunity to work with Browser Sound's hybrid ensemble of in-person and remote musicians/coders.

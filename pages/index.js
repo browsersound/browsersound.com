@@ -135,19 +135,7 @@ export default function Home({ allPostsData }) {
               title="S-K-A-M e.V"
             />
           </a>
-          <a
-            href="https://www.hmdk-stuttgart.de/home/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            <img
-              src="/HMDK_Logo_1C.jpg"
-              alt="HMDK Logo"
-              className="logo"
-              title="HMDK Stuttgart"
-            />
-          </a>
+       
         </div>
       </footer>
 
