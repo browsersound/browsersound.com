@@ -65,7 +65,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a href="https://drive.google.com/file/d/1Fzy4We9CXB0LP2f2ZRRGp3sflmzHcK3i/view?usp=sharing" className="card">
+          <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
             <h3>
               Call for Proposals{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
