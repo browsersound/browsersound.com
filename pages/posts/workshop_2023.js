@@ -14,25 +14,20 @@ export default function FirstPost() {
 
       </p>
 
-      <div className={styles.event}>
+      <p className="event">
         <h2>Workshop</h2>
         <h4>6 Meetings in June/July - Specific Times TBA</h4>
         <h4>Online</h4>
         <p>
         Over the course of six 90-minute zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library. 
         </p>
-        {/* <Image
-          src="/images/Becky-Brown-01.png"
-          width={600}
-          height={400}
-          layout="responsive"
-        /> */}
+     
         <figure> 
         <img src="/images/ZoomRoom-1.png" classname="image-test"></img>
          <figcaption>Laurens Inauen's Workshop from Browser Sound 2021</figcaption>
          </figure>
       
-      </div>
+      </p>
 
 
       <style jsx>{`
