@@ -23,8 +23,8 @@ export default function FirstPost() {
 
       <div className={styles.event}>
         <h2>Workshop</h2>
-        <h3>6 Meetings in June/July - Specific Times TBA</h3>
-        <h3>Online</h3>
+        <h4>6 Meetings in June/July - Specific Times TBA</h4>
+        <h4>Online</h4>
         <p>
         Over the course of six 90-minute zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library. 
          
@@ -35,11 +35,10 @@ export default function FirstPost() {
           height={400}
           layout="responsive"
         /> */}
-
+        <figure> 
         <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
-
-        <p></p>
-        <img src="/images/Becky-Brown-02.png" classname="image-test"></img>
+         <figcaption>PACKETSPHERE: An Internet Travelogue, by Zak Argabrite and Becky Brown - A Browser Sound 2021 Commission.</figcaption>
+         </figure>
       
       </div>
 
@@ -71,7 +70,13 @@ export default function FirstPost() {
           height={400}
           layout="responsive"
         /> */}
+
+        <figure> 
         <img src="/images/Dataplease - Jana De Troyer.gif" classname="image-test"></img>
+         <figcaption>Data, please!, by Jana De Troyer and Steffen Reichelt - A Browser Sound 2021 Commission.</figcaption>
+         </figure>
+        
+
 
     
       </div>
@@ -90,7 +95,7 @@ export default function FirstPost() {
     </SyntaxHighlighter> */}
         <figure> 
         <img src="/images/StarInterface.png" classname="image-test"></img>
-         <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+         <figcaption>vyshyvanka.js, by Solomiya Moroz and Curt Miller - A Browser Sound 2021 Commission.</figcaption>
          </figure>
         
       
