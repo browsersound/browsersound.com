@@ -88,8 +88,11 @@ export default function FirstPost() {
           {/* <SyntaxHighlighter language="javascript" style={docco}>
       {codeString}
     </SyntaxHighlighter> */}
-
-        <img src="/images/anti - rapofran.jpg" classname="image-test"></img>
+        <figure> 
+        <img src="/images/StarInterface.png" classname="image-test"></img>
+         <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+         </figure>
+        
       
       </div>
 
