@@ -27,7 +27,7 @@ export default function FirstPost() {
         </p>
 
         
-      // <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+      <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
       
       </div>
 
@@ -39,7 +39,7 @@ export default function FirstPost() {
           Description about Concert
          
         </p>
-      // <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+      <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
       </div>
 
 
@@ -51,7 +51,7 @@ export default function FirstPost() {
           Description about Show and Tell
          
         </p>
-      // <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+      <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
       </div>
 
       <div className={styles.event}>
@@ -62,7 +62,7 @@ export default function FirstPost() {
           Description about Reading Session
          
         </p>
-      // <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+       <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
       </div>
 
 
