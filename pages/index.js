@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-           <Link href="/posts/wip_page">
+           <Link href="/posts/programming_2023">
             <a>2023</a>
          </Link>
           :
@@ -75,7 +75,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
           
-          <a Link href="/posts/wip_page" className="card">
+          <a Link href="/posts/programming_2023" className="card">
             <h3> 
               Events and Location{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
