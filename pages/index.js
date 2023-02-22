@@ -55,7 +55,7 @@ export default function Home({ allPostsData }) {
        
         <div className="grid-container">
         <div className="grid">
-          <a href="/posts/wip_page" className="card">
+          <a href="/posts/workshop_2023" className="card">
             <h3>
               Workshop and Reading Session{" "}
               <span className={utilStyles.noBreak}>Grounds &rarr;</span>
