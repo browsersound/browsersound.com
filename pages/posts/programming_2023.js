@@ -10,8 +10,8 @@ export default function FirstPost() {
       
       <p className="event">
       <h1>Events and Locations</h1>
-        Location Sharing will consist of four main events: A 6-part coding workshop (online only), a concert, a show-and-tell meetup, and a reading session (the latter three are in-person & online)
-
+        <p>Location Sharing will consist of four main events: A 6-part coding workshop (online only), a concert, a show-and-tell meetup, and a reading session (the latter three are in-person & online)
+        </p>
         <div className={styles.event}>
         <h2>Workshop</h2>
         <h3>6 Meetings in June/July - Specific Times TBA</h3>
@@ -29,7 +29,7 @@ export default function FirstPost() {
         
         <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
       
-      </div>
+        </div>
 
       <div className={styles.event}>
         <h2>Concert</h2>
@@ -86,12 +86,12 @@ export default function FirstPost() {
           background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
+        }
 
         .image-test {
           margin-top: 10px;
         }
       `}</style>
-
 
 
     </Layout>
