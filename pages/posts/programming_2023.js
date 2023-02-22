@@ -1,5 +1,11 @@
 import Head from "next/head";
+import Image from "next/image";
 import Layout from "../../components/layout";
+import styles from "../../components/layout.module.css";
+// import SyntaxHighlighter from 'react-syntax-highlighter';
+// import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
+
 
 export default function FirstPost() {
   return (
@@ -7,93 +13,92 @@ export default function FirstPost() {
       <Head>
         <title>Location Sharing: Events and Locations</title>
       </Head>
+
+      <p className={styles.event}>
+        <h1>Events and Locations</h1>
+
+        Location Sharing will consist of four main events: A 6-part coding workshop (online only), a concert, a show-and-tell meetup, and a reading session (the latter three are in-person & online)
       
-      <p className="event">
-      <h1>Events and Locations</h1>
-        <p>Location Sharing will consist of four main events: A 6-part coding workshop (online only), a concert, a show-and-tell meetup, and a reading session (the latter three are in-person & online)
-        </p>
-        <div className={styles.event}>
+      </p>
+
+      <div className={styles.event}>
         <h2>Workshop</h2>
         <h3>6 Meetings in June/July - Specific Times TBA</h3>
         <h3>Online</h3>
         <p>
-          Description about Workshop
-
-          Level
-          Zoom
-          p5.js
-
+        Over the course of six 90-minute zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library. 
          
         </p>
+        {/* <Image
+          src="/images/Becky-Brown-01.png"
+          width={600}
+          height={400}
+          layout="responsive"
+        /> */}
 
-        
         <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+
+        <p></p>
+        <img src="/images/Becky-Brown-02.png" classname="image-test"></img>
       
-        </div>
+      </div>
 
       <div className={styles.event}>
         <h2>Concert</h2>
-        <h3>July </h3>
-        <h3><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany & Online</h3>
-        <p>
-          Description about Concert
          
-        </p>
-        <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
-      </div>
+        <h3>July 21st (Evening)</h3>
+        <h3><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany & Online</h3>
 
+        <p>
+         A concert of new works that exist simulatneously online and in-person. A hybrid ensemble of in-person and remote musicians and coders will premiere the new works. 
+        </p>
+        <p> 
+        One of these works will be commisioned from our call for porposals. <a href="https://drive.google.com/file/d/1Fzy4We9CXB0LP2f2ZRRGp3sflmzHcK3i/view?usp=sharing">Submit here</a>.
+        </p>
+        
+      </div>
 
       <div className={styles.event}>
         <h2>Show-and-Tell</h2>
-        <h3>July </h3>
+        <h3>July 22nd (Afternoon) </h3>
         <h3>Stuttgart, Germany & Online</h3>
         <p>
-          Description about Show and Tell
-         
+          For an afternoon, artists will give presentations of their works. Open for any artist to contribute. Registration link forthcoming. This is an opportuntiy for the community to share with one another what they have been working on, and to be inspired by one another.
         </p>
-         <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
-      </div>
+        {/* <Image
+          src="/images/Dataplease - Jana De Troyer.gif"
+          width={600}
+          height={400}
+          layout="responsive"
+        /> */}
+        <img src="/images/Dataplease - Jana De Troyer.gif" classname="image-test"></img>
 
+    
+      </div>
       <div className={styles.event}>
         <h2>Reading Session</h2>
-        <h3>July </h3>
+        <h3>July 22nd Evening</h3>
         <h3>Stuttgart, Germany & Online</h3>
+          
         <p>
-          Description about Reading Session
-         
+        Participants of the workshop will present a final project in the format of an informal concert / show-and-tell. Participants will have the opportunity to work with Browser Sound's hybrid ensemble of in-person and remote musicians/coders.
         </p>
-         <img src="/images/Becky-Brown-01.png" classname="image-test"></img>
+      
+        
+          {/* <SyntaxHighlighter language="javascript" style={docco}>
+      {codeString}
+    </SyntaxHighlighter> */}
+
+        <img src="/images/anti - rapofran.jpg" classname="image-test"></img>
+      
       </div>
 
 
       <style jsx>{`
-        .event {
-          margin: 20px 0;
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-        }
-        .event ul {
-          padding: 0;
-          padding-left: 1em;
-          margin: 0;
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-        }
-        .event ul li {
-          list-style: none;
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-        }
-
         .image-test {
           margin-top: 10px;
         }
       `}</style>
-
-
     </Layout>
   );
 }
