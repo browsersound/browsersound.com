@@ -143,7 +143,7 @@ export default function Home({ allPostsData }) {
             rel="noopener noreferrer"
           >
             <img
-              src="/public/images/DigiScore-new-logo-with-added-circles-2022.png"
+              src="/images/DigiScore-new-logo-with-added-circles-2022.png"
               alt="DigiScore Logo"
               className="logo"
               title="S-K-A-M e.V"
@@ -156,7 +156,7 @@ export default function Home({ allPostsData }) {
             rel="noopener noreferrer"
           >
             <img
-              src="/public/images/LOGO_ERC-FLAG_EU_.jpg"
+              src="/images/LOGO_ERC-FLAG_EU_.jpg"
               alt="ERC Logo"
               className="logo"
               title="S-K-A-M e.V"
