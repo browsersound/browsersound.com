@@ -135,8 +135,36 @@ export default function Home({ allPostsData }) {
               title="S-K-A-M e.V"
             />
           </a>
+
+
+          <a
+            href="https://digiscore.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/public/images/DigiScore-new-logo-with-added-circles-2022.png"
+              alt="DigiScore Logo"
+              className="logo"
+              title="S-K-A-M e.V"
+            />
+          </a>
+
+          <a
+            href="https://digiscore.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/public/images/LOGO_ERC-FLAG_EU_.jpg"
+              alt="ERC Logo"
+              className="logo"
+              title="S-K-A-M e.V"
+            />
+          </a>
        
         </div>
+
       </footer>
 
       <style jsx>{`
