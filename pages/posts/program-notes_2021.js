@@ -20,14 +20,14 @@ export default function FirstPost() {
          This is a record of our 2021 Festival. Check back soon for our 2023 Schedule!
 
         <br/>FESTIVAL SCHEDULE
-         <a href="/posts/posts_2021/mozillahubs_2021"> HERE</a>.
+         <a href="/posts/mozillahubs_2021"> HERE</a>.
          <br/>ABOUT OUR WORKSHOPS
-         <a href="/posts/posts_2021/about_2021"> HERE</a>.
+         <a href="/posts/about_2021"> HERE</a>.
          <br/>PROJECTS SOURCE CODE 
          <a href="https://github.com/BrowserMusic"> HERE</a>.
 
          <br/>FESTIVAL CREDITS 
-         <a href="/posts/posts_2021/credits"> HERE</a>.
+         <a href="/posts/credits"> HERE</a>.
       
       </p>
 

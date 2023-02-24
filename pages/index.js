@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
           </script> */}
 
 
-        <title>BROWSER SOUND | Festival for Web-based Music</title>
+        <title>BROWSER SOUND | New Music and the Web</title>
         <link rel="icon" href="/browser-logo.ico" />
          
       </Head>
@@ -46,7 +46,7 @@ export default function Home({ allPostsData }) {
         <h1 className="title">Location Sharing</h1>
 
         <p className="description">
-          A Festival of Web-based Music | July 22nd-23rd
+          A Festival for New Music and the Web | July 21st-22nd
         </p>
 
         <p className="description2">
