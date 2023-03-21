@@ -18,14 +18,12 @@ export default function FirstPost() {
         <h2>Workshop</h2>
         <h4>6 Meetings in June/July - Tuesdays 17:00-19:00 Germany Time / 11:00-1:00 EST</h4>
         <h4>Online</h4>
-        <p className="event ul">
-          Tuesday, June 6th
-          <br>Tuesday, June 13th</br>
-          <br>Tuesday, June 20th</br>
-          <br>Tuesday, June 27th</br>
-          <br> Tuesday, July 4th</br>
-          <br> Tuesday, July 11th</br>
-        </p>
+        <p className="event ul">Tuesday, June 6th</p>
+        <p className="event ul">Tuesday, June 13th</p>
+        <p className="event ul">Tuesday, June 20th</p>
+        <p className="event ul">Tuesday, June 27th</p>
+        <p className="event ul">Tuesday, July 4th</p>
+        <p className="event ul">Tuesday, July 11th</p>
         <p>
           Over the course of six zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library.
         </p>
