@@ -10,20 +10,20 @@ export default function FirstPost() {
 
       <p className="event">
         <h1>Web Audio for Non-Programmers</h1>
-        Details for our Workshop will be released soon. However, for now, please see this short description below.
+        Registration and details for our Workshop will be released soon. However, for now, please see this short description below.
 
       </p>
 
       <p className="event">
         <h2>Workshop</h2>
-        <h4>6 Meetings - Online</h4>
-        <h4>Online - Registration Link Forthcoming</h4>
-        <p className="event ul">Tuesday, June 6th - 17:00-19:00 CET / 11:00-1:00 EST</p>
-        <p className="event ul">Tuesday, June 13th - 17:00-19:00 CET / 11:00-1:00 EST</p>
-        <p className="event ul">Tuesday, June 20th - 17:00-19:00 CET / 11:00-1:00 EST</p>
-        <p className="event ul">Tuesday, June 27th - 17:00-19:00 CET / 11:00-1:00 EST</p>
-        <p className="event ul">Tuesday, July 4th - 17:00-19:00 CET / 11:00-1:00 EST</p>
-        <p className="event ul">Tuesday, July 11th - 17:00-19:00 CET / 11:00-1:00 EST</p>
+        <h4>6 Meetings</h4>
+        <h4>Online - All Meetings at 17:00-19:00 CET / 11:00-1:00 EST</h4>
+        <p className="event ul">Tuesday, June 6th</p>
+        <p className="event ul">Tuesday, June 13th</p>
+        <p className="event ul">Tuesday, June 20th</p>
+        <p className="event ul">Tuesday, June 27th</p>
+        <p className="event ul">Tuesday, July 4th </p>
+        <p className="event ul">Tuesday, July 11th</p>
         <p>
           Over the course of six zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library.
         </p>
