@@ -20,25 +20,25 @@ export default function FirstPost() {
         <h4>Online</h4>
         <p className="event ul">
           Tuesday, June 6th
-          <br>Tuesday, June 13th
-            <br>Tuesday, June 20th
-              <br>Tuesday, June 27th
-                <br> Tuesday, July 4th
-                  <br> Tuesday, July 11th
-                  </p>
-                  <p>
-                    Over the course of six zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library.
-                  </p>
+          <br>Tuesday, June 13th</br>
+          <br>Tuesday, June 20th</br>
+          <br>Tuesday, June 27th</br>
+          <br> Tuesday, July 4th</br>
+          <br> Tuesday, July 11th</br>
+        </p>
+        <p>
+          Over the course of six zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library.
+        </p>
 
-                  <figure>
-                    <img src="/images/ZoomRoom-1.png" classname="image-test"></img>
-                    <figcaption>Laurens Inauen's Workshop from Browser Sound 2021</figcaption>
-                  </figure>
+        <figure>
+          <img src="/images/ZoomRoom-1.png" classname="image-test"></img>
+          <figcaption>Laurens Inauen's Workshop from Browser Sound 2021</figcaption>
+        </figure>
 
-                </p>
+      </p>
 
 
-                <style jsx>{`
+      <style jsx>{`
         .event {
           margin: 20px 0;
           background: #fafafa;
@@ -63,6 +63,6 @@ export default function FirstPost() {
 
 
 
-              </Layout>
-              );
+    </Layout>
+  );
 }
