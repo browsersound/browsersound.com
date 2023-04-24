@@ -65,7 +65,7 @@ export default function Home({ allPostsData }) {
               </p>
             </a>
 
-            <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
+            {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
               <h3>
                 Call for Proposals{" "}
                 <span className={utilStyles.noBreak}>&rarr;</span>
@@ -73,7 +73,7 @@ export default function Home({ allPostsData }) {
               <p>
                 Apply to our commision project with DigiScore
               </p>
-            </a>
+            </a> */}
 
             <a Link href="/posts/programming_2023" className="card">
               <h3>
@@ -81,7 +81,7 @@ export default function Home({ allPostsData }) {
                 <span className={utilStyles.noBreak}>&rarr;</span>
               </h3>
               <p>
-                Times and places where Browser Sound will be taking place.
+                Times and places for our Concert, Workshop, and other events.
               </p>
             </a>
 
