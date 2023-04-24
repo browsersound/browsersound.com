@@ -58,7 +58,7 @@ export default function FirstPost() {
       </p>
       <p className="event">
         <p>
-          This workshop will be taught by <a href="brandonlincolnsnyder.com">Brandon Lincoln Snyder</a>, and is produced in partnership with WebSoundArt, a community dedicated to web-based sound art.
+          This workshop will be taught by <a href="https://www.brandonlincolnsnyder.com/">Brandon Lincoln Snyder</a>, and is produced in partnership with WebSoundArt, a community dedicated to web-based sound art.
         </p>
 
 
@@ -72,7 +72,7 @@ export default function FirstPost() {
 
       <style jsx>{`
         .event {
-          margin: 20px 0;
+          margin: 5px 0;
           background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;
