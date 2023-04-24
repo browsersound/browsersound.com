@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
           <Link href="/">{name}</Link>
         </h2>
         <div className={styles.headerDescription}>
-          <p>A Festival of Web-based Music </p>
+          <p>A Festival for Music and the Web </p>
           <div className={styles.divider}></div>
           <p className={utilStyles.noBreak}>July 21st-22nd 2023</p>
         </div>
