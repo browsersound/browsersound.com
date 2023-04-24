@@ -37,7 +37,7 @@ export default function FirstPost() {
         <p>Reduced Fee - €13.50 Euro / $15.00 USD </p>
 
         <p>
-          <em>Reduced Fee is available, no questions asked, for students and anyone else for whom the regular fee is prohibitive. If the reduced fee is prohibitive, email browserwebmusic@gmail.com for further discussion.</em>
+          <em>Reduced Fee is available, no questions asked, for students and anyone else for whom the regular fee is prohibitive. If the reduced fee is prohibitive, send an email to browserwebmusic@gmail.com.</em>
         </p>
         <p>
           All workshop communications will occur via email from browserwebmusic@gmail.com. A join link to each meeting will be
