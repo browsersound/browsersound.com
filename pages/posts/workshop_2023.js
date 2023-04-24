@@ -69,6 +69,22 @@ export default function FirstPost() {
 
       </p>
 
+      <p className="event">
+        <h2>FAQ</h2>
+        <h4>Is it mandatory to attend all six sessions?</h4>
+        <p>It is recommended to attend all six sessions, as each session will build off of the previous one.
+          However, there is no penalty for missing sessions.</p>
+        <h4>Will the sessions be recorded? Can a session be viewed afterwards?</h4>
+        <p>A session recording can be provided for a registered participant upon request. These
+          recordings will be granted in the case that the participant cannot attend a certain meeting time, or that
+          a recorded session would be helpful for their learning of the material.
+          The recordings are not available as a substitute for attending the online sessions. If you
+          wish to participate in the class, but would need to miss more than 2 sessions, send an email
+          to browserwebmusic@gmail.com to discuss possibly working something out.</p>
+        <h4>I have other questions!</h4>
+        <p>Send an email to browserwebmusic@gmail.com and let's work it out!</p>
+      </p>
+
 
       <style jsx>{`
         .event {
