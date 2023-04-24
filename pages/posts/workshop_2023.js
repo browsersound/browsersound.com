@@ -5,7 +5,7 @@ export default function FirstPost() {
   return (
     <Layout>
       <Head>
-        <title>Web Audio Workshop</title>
+        <title>Javascript for Sound Artists</title>
       </Head>
 
       <p className="event">
