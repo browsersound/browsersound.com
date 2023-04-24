@@ -79,6 +79,8 @@ export default function FirstPost() {
           recordings will be granted in the case that the participant cannot attend a certain meeting time, or that
           a recorded session would be helpful for their learning of the material.
           The recordings are not available as a complete substitute for attending the online sessions.</p>
+        <h4>What materials do I need? What is provided?</h4>
+        <p>A computer with an internet connection is required. Supplemental materials (code, audio files, other notes) will be provided along with each session.</p>
         <h4>I have other questions!</h4>
         <p>Send an email to browserwebmusic@gmail.com and let's work it out!</p>
       </p>
