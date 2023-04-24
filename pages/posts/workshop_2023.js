@@ -72,7 +72,7 @@ export default function FirstPost() {
 
       <style jsx>{`
         .event {
-          margin: 5px 0;
+          margin: 20px 0;
           background: #fafafa;
           border-radius: 5px;
           padding: 0.75rem;

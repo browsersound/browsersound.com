@@ -31,16 +31,16 @@ export default function Home({ allPostsData }) {
 
         <title>BROWSER SOUND | New Music and the Web</title>
         <link rel="icon" href="/browser-logo.ico" />
-         
+
       </Head>
-     
+
 
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-           <Link href="/posts/programming_2023">
+          <Link href="/posts/programming_2023">
             <a>2023</a>
-         </Link>
+          </Link>
           :
         </h1>
         <h1 className="title">Location Sharing</h1>
@@ -52,38 +52,38 @@ export default function Home({ allPostsData }) {
         <p className="description2">
           Stuttgart & Online
         </p>
-       
-        <div className="grid-container">
-        <div className="grid">
-          <a href="/posts/workshop_2023" className="card">
-            <h3>
-              Workshop and Reading Session{" "}
-              <span className={utilStyles.noBreak}>Grounds &rarr;</span>
-            </h3>
-            <p>
-              Register for our online, 6-part workshop in web audio, as well as our remote/in-person reading session with our ensemble.
-            </p>
-          </a>
 
-          <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
-            <h3>
-              Call for Proposals{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
-            </h3> 
-            <p>
-              Apply to our commision project with DigiScore
-            </p>
-          </a>
-          
-          <a Link href="/posts/programming_2023" className="card">
-            <h3> 
-              Events and Location{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
-            </h3>
-            <p>
-              Times and places where Browser Sound will be taking place.
-            </p>
-          </a>
+        <div className="grid-container">
+          <div className="grid">
+            <a href="/posts/workshop_2023" className="card">
+              <h3>
+                WORKSHOP: Javascript for Sound Artists{" "}
+                <span className={utilStyles.noBreak}>Grounds &rarr;</span>
+              </h3>
+              <p>
+                Register for our online, 6-part workshop in web audio.
+              </p>
+            </a>
+
+            <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
+              <h3>
+                Call for Proposals{" "}
+                <span className={utilStyles.noBreak}>&rarr;</span>
+              </h3>
+              <p>
+                Apply to our commision project with DigiScore
+              </p>
+            </a>
+
+            <a Link href="/posts/programming_2023" className="card">
+              <h3>
+                Events and Location{" "}
+                <span className={utilStyles.noBreak}>&rarr;</span>
+              </h3>
+              <p>
+                Times and places where Browser Sound will be taking place.
+              </p>
+            </a>
 
           </div>
 
@@ -91,7 +91,7 @@ export default function Home({ allPostsData }) {
             <h3 className={utilStyles.noBreak}>About / Past Work &rarr;</h3>
 
             <p>
-            About our festival, our past commisions, workshops, and code.
+              About our festival, our past commisions, workshops, and code.
             </p>
           </a>
 
@@ -162,7 +162,7 @@ export default function Home({ allPostsData }) {
               title="S-K-A-M e.V"
             />
           </a>
-       
+
         </div>
 
       </footer>

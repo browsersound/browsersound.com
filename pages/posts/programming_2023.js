@@ -22,19 +22,13 @@ export default function FirstPost() {
       </p>
 
       <div className={styles.event}>
-        <h2>Workshop</h2>
+        <h2>Workshop: Javascript for Sound Artists</h2>
         <h4>6 Meetings in June/July - 17:00-19:00 CET / 11:00-1:00 EST</h4>
         <h4>Online</h4>
         <p>
-          Over the course of six zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library.
-
+          Over the course of six zoom meetings, workshop participants will learn how to program audio in the web browser.
         </p>
-        <p className="event ul">Tuesday, June 6th</p>
-        <p className="event ul">Tuesday, June 13th</p>
-        <p className="event ul">Tuesday, June 20th</p>
-        <p className="event ul">Tuesday, June 27th</p>
-        <p className="event ul">Tuesday, July 4th </p>
-        <p className="event ul">Tuesday, July 11th</p>
+        <h3>Read full information <a href="/posts/workshop_2023">here</a>.</h3>
         {/* <Image
           src="/images/Becky-Brown-01.png"
           width={600}
