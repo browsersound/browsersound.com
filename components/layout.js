@@ -4,8 +4,8 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "BROWSER";
-export const siteTitle = "BROWSER | Festival for Music and the Web";
+const name = "BROWSER SOUND";
+export const siteTitle = "BROWSER SOUND | Festival for Music and the Web";
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/browser-logo.ico" />
         <meta
           name="description"
-          content="BROWSER, a festival for Music and the Web"
+          content="BROWSER SOUND, a festival for Music and the Web"
         />
         <meta
           property="og:image"
