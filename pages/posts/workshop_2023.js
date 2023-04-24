@@ -78,9 +78,7 @@ export default function FirstPost() {
         <p>A session recording can be provided for a registered participant upon request. These
           recordings will be granted in the case that the participant cannot attend a certain meeting time, or that
           a recorded session would be helpful for their learning of the material.
-          The recordings are not available as a substitute for attending the online sessions. If you
-          wish to participate in the class, but would need to miss more than 2 sessions, send an email
-          to browserwebmusic@gmail.com to discuss possibly working something out.</p>
+          The recordings are not available as a complete substitute for attending the online sessions.</p>
         <h4>I have other questions!</h4>
         <p>Send an email to browserwebmusic@gmail.com and let's work it out!</p>
       </p>
