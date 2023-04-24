@@ -9,8 +9,9 @@ export default function FirstPost() {
       </Head>
 
       <p className="event">
-        <h1>Web Audio for Non-Programmers</h1>
-        Registration and details for our Workshop will be released soon. However, for now, please see this short description below.
+        <h1>Javascript for Sound Artists</h1>
+        Register <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUKm7gud1Dj81DplIT8Cz-qpRWgIFbf3IF97cDQgc98PNRKQ/viewform?usp=sf_link">Here</a>
+
 
       </p>
 
@@ -24,8 +25,16 @@ export default function FirstPost() {
         <p className="event ul">Tuesday, June 27th</p>
         <p className="event ul">Tuesday, July 4th </p>
         <p className="event ul">Tuesday, July 11th</p>
-        <p>
-          Over the course of six zoom meetings, workshop participants will learn how to program audio in the web browser using the p5.js library.
+        <p>This is an intro to Javascript crash course designed for musicians and sound artists. Through 6 online meetings, participants are taught the basics of javascript through the lens of the p5.js library for creative coding. We will touch upon handling audio files and synthesizing sound in the web browser, creating an interactive web page, producing audio-synced visuals, and other topics that will set up a musician to begin creating sound art in the web browser. The workshops will culminate with a reading session at Location Sharing, Browser Sound’s 2023 festival. There, participants will present a final project, and have the option to have Browser Sound’s ensemble read through a performance of their work.
+        </p>
+
+        <p>These workshops are aimed for audiences with beginner/no-prior understanding of web programming. A major learning objective of these workshops is to equip you with fundamental tools and understanding of web programming, to kickstart a larger creative journey with the web.
+
+          There is a registration fee for participation:
+          Regular Fee - €22.50 Euro  / $25.00 USD (regular)
+          Reduced Fee - €13.50 Euro / $5.25 (reduced)
+
+          Reduced Fee is available, no questions asked, for students and anyone else for whom the regular fee is prohibitive.
         </p>
 
         <figure>
