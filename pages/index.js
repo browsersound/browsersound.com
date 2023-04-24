@@ -58,7 +58,7 @@ export default function Home({ allPostsData }) {
             <a href="/posts/workshop_2023" className="card">
               <h3>
                 WORKSHOP: Javascript for Sound Artists{" "}
-                <span className={utilStyles.noBreak}>Grounds &rarr;</span>
+                <span className={utilStyles.noBreak}> &rarr;</span>
               </h3>
               <p>
                 Register for our online, 6-part workshop in web audio.
