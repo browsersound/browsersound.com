@@ -86,7 +86,7 @@ export default function Home({ allPostsData }) {
             </a>
 
             <a Link href="/posts/program-notes_2021" className="card">
-              <h3 className={utilStyles.noBreak}>About / Past Work &rarr;</h3>
+              <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
               <p>
                 About our festival, our past commisions, workshops, and code.
