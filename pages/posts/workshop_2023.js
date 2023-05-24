@@ -21,7 +21,7 @@ export default function FirstPost() {
           Through six synchronous, online meetings, participants are taught the basics of javascript through
           the lens of the p5.js library for creative coding. We will touch upon handling audio files and
           synthesizing sound in the web browser, creating an interactive web page, producing audio-synced
-          visuals, and using API's to generate audio and visual content.
+          visuals, and using APIs to generate audio and visual content.
           <em>The workshops will culminate with a reading session at Location Sharing, Browser Sound’s 2023 festival.
             There, participants will present a final project, and have the option to have Browser Sound’s ensemble read through
             a performance of their work.</em>
