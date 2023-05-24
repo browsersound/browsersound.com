@@ -58,7 +58,7 @@ export default function FirstPost() {
       </p>
       <p className="event">
         <p>
-          This workshop will be taught by <a href="https://www.brandonlincolnsnyder.com/">Brandon Lincoln Snyder</a>, and is produced in partnership with WebSoundArt, a community dedicated to web-based sound art.
+          This workshop will be taught by <a href="https://www.brandonlincolnsnyder.com/">Brandon Lincoln Snyder</a>, and is produced in partnership with <a href="http://websoundart.org">WebSoundArt</a>, a community dedicated to web-based sound art.
         </p>
 
 
