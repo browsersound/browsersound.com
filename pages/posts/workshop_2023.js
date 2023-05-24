@@ -71,9 +71,9 @@ export default function FirstPost() {
 
       <p className="event">
         <h2>FAQ</h2>
-        <h4>Is it mandatory to attend all six sessions?</h4>
+        <h4>Is it mandatory to attend all six sessions and final presentation?</h4>
         <p>It is recommended to attend all six sessions, as each session will build off of the previous one.
-          However, there is no penalty for missing sessions.</p>
+          However, there is no penalty for missing sessions. The final presentation is optional.</p>
         <h4>Will the sessions be recorded? Can a session be viewed afterwards?</h4>
         <p>A session recording can be provided for a registered participant upon request. These
           recordings will be granted in the case that the participant cannot attend a certain meeting time, or that
@@ -81,6 +81,14 @@ export default function FirstPost() {
           The recordings are not available as a complete substitute for attending the online sessions.</p>
         <h4>What materials do I need? What is provided?</h4>
         <p>A computer with an internet connection is required. Supplemental materials (code, audio files, other notes) will be provided along with each session.</p>
+        <h4>Can you tell me more about what we will specifically cover?</h4>
+        <p>Meetings primarily consist of building 4 creative sound projects together in javascript. Optional,
+          light homework is</p>
+        <p>Workshop participants will learn how to Javascript through the lens of 4 web-sound art projects:</p>
+        <p>1. An interactive noise box</p>
+        <p>2. A drum/audio-sample sequencer</p>
+        <p>3. A synthesizer</p>
+        <p>4. Using API's for audio and visual generation. </p>
         <h4>I have other questions!</h4>
         <p>Send an email to browserwebmusic@gmail.com and let's work it out!</p>
       </p>
