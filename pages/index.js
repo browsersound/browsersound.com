@@ -52,8 +52,8 @@ export default function Home({ allPostsData }) {
 
 
 
-        <div className="grid">
-          {/* <a href="/posts/workshop_2023" className="card">
+        {/* <div className="grid"> */}
+        {/* <a href="/posts/workshop_2023" className="card">
               <h3>
                 WORKSHOP: Javascript for Sound Artists{" "}
                 <span className={utilStyles.noBreak}> &rarr;</span>
@@ -63,7 +63,7 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-          {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
+        {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
               <h3>
                 Call for Proposals{" "}
                 <span className={utilStyles.noBreak}>&rarr;</span>
@@ -73,41 +73,41 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-          <a Link href="/posts/programming_2023" className="card">
-            <h3>
-              Events{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
-            </h3>
-            <p>
-              Times and places for our Concert, Workshop, and presentations.
-            </p>
-          </a>
+        <a Link href="/posts/programming_2023" className="card">
+          <h3>
+            Events{" "}
+            <span className={utilStyles.noBreak}>&rarr;</span>
+          </h3>
+          <p>
+            Come join us!
+          </p>
+        </a>
 
-          <a Link href="/posts/program-notes_2021" className="card">
-            <h3 className={utilStyles.noBreak}>About &rarr;</h3>
+        <a Link href="/posts/program-notes_2021" className="card">
+          <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
-            <p>
-              About our festival, our past commisions, workshops, and code.
-            </p>
-          </a>
-
-
+          <p>
+            About our festival, our past commisions, workshops, and code.
+          </p>
+        </a>
 
 
 
-          <a
-            Link
-            href="https://www.brandonlincolnsnyder.com/email-reminder"
-            className="card"
-          >
-            <h3>
-              Remind <span className={utilStyles.noBreak}>Me! &rarr;</span>
-            </h3>
-            <p>
-              Join our email list to get up to date with this years festival
-            </p>
-          </a>
-        </div>
+
+
+        <a
+          Link
+          href="https://www.brandonlincolnsnyder.com/email-reminder"
+          className="card"
+        >
+          <h3>
+            Remind <span className={utilStyles.noBreak}>Me! &rarr;</span>
+          </h3>
+          <p>
+            Join our email list to get up to date with this years festival
+          </p>
+        </a>
+        {/* </div> */}
 
         <div className="bgWrap">
           <Image
@@ -263,7 +263,7 @@ export default function Home({ allPostsData }) {
           font-size: 1.5rem;
           background: #fafafa;
           border-radius: 5px;
-          padding: 0.75rem;
+          padding: 0 0.5rem;
         }
 
         code {
