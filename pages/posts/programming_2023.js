@@ -16,13 +16,12 @@ export default function FirstPost() {
 
       <p className={styles.event}>
         <h1>Events and Locations</h1>
-        Summary:
-        <ul>
-          <li>Workshop: JavaScript for Sound Artists</li>
-          <li>Live Concert</li>
-          <li>Show and Tell Sessions (1 and 2)</li>
-          <li>Final Presentations from Workshop</li>
-        </ul>
+
+        <h4>Workshop: JavaScript for Sound Artists</h4>
+        <h4>Live Concert</h4>
+        <h4>Show and Tell Sessions (1 and 2)</h4>
+        <h4>Final Presentations from Workshop</h4>
+
 
       </p>
 
