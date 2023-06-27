@@ -16,8 +16,13 @@ export default function FirstPost() {
 
       <p className={styles.event}>
         <h1>Events and Locations</h1>
-
-        Location Sharing will consist of four main events: A 6-part coding workshop (online only), a concert, a show-and-tell meetup, and a reading session (the latter three are in-person & online)
+        Summary:
+        <ul>
+          <li>Workshop: JavaScript for Sound Artists</li>
+          <li>Live Concert</li>
+          <li>Show and Tell Sessions (1 and 2)</li>
+          <li>Final Presentations from Workshop</li>
+        </ul>
 
       </p>
 
