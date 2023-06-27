@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
 
       </Head>
 
-      <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing"></img>
+      <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing" style="padding:0.5rem"></img>
 
       <main>
         {/* <h1 className="title">
@@ -47,16 +47,13 @@ export default function Home({ allPostsData }) {
         <h1 className="title">Location Sharing</h1> */}
 
         <p className="description">
-          A Festival for New Music and the Web | July 21st-22nd
+          A Festival for New Music and the Web
         </p>
 
-        <p className="description2">
-          Stuttgart & Online
-        </p>
 
-        <div className="grid-container">
-          <div className="grid">
-            {/* <a href="/posts/workshop_2023" className="card">
+
+        <div className="grid">
+          {/* <a href="/posts/workshop_2023" className="card">
               <h3>
                 WORKSHOP: Javascript for Sound Artists{" "}
                 <span className={utilStyles.noBreak}> &rarr;</span>
@@ -66,7 +63,7 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-            {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
+          {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
               <h3>
                 Call for Proposals{" "}
                 <span className={utilStyles.noBreak}>&rarr;</span>
@@ -76,25 +73,25 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-            <a Link href="/posts/programming_2023" className="card">
-              <h3>
-                Events{" "}
-                <span className={utilStyles.noBreak}>&rarr;</span>
-              </h3>
-              <p>
-                Times and places for our Concert, Workshop, and presentations.
-              </p>
-            </a>
+          <a Link href="/posts/programming_2023" className="card">
+            <h3>
+              Events{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
+            <p>
+              Times and places for our Concert, Workshop, and presentations.
+            </p>
+          </a>
 
-            <a Link href="/posts/program-notes_2021" className="card">
-              <h3 className={utilStyles.noBreak}>About &rarr;</h3>
+          <a Link href="/posts/program-notes_2021" className="card">
+            <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
-              <p>
-                About our festival, our past commisions, workshops, and code.
-              </p>
-            </a>
+            <p>
+              About our festival, our past commisions, workshops, and code.
+            </p>
+          </a>
 
-          </div>
+
 
 
 
@@ -259,7 +256,7 @@ export default function Home({ allPostsData }) {
           font-size: 1.5rem;
           background: #fafafa;
           border-radius: 5px;
-          padding: 0.75rem;
+          padding: 0 0.5rem;
         }
         .description2 {
           line-height: 1.5;
@@ -297,7 +294,7 @@ export default function Home({ allPostsData }) {
         .card {
           margin: 1rem;
           flex-basis: 45%;
-          padding: 1.5rem;
+          padding: 0.75rem;
           text-align: left;
           color: inherit;
           text-decoration: none;
@@ -362,6 +359,6 @@ export default function Home({ allPostsData }) {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
+    </div >
   );
 }
