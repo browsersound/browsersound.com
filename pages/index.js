@@ -163,6 +163,19 @@ export default function Home({ allPostsData }) {
             />
           </a>
 
+          <a
+            href="https://websoundart.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/WSA_logo.svg"
+              alt="websoundart Logo"
+              className="logo"
+              title="WSA"
+            />
+          </a>
+
         </div>
 
       </footer>
