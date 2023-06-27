@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
 
       </Head>
 
-      <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing" style="padding:0.5rem"></img>
+      <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing" ></img>
 
       <main>
         {/* <h1 className="title">
