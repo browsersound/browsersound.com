@@ -257,6 +257,7 @@ export default function Home({ allPostsData }) {
           background: #fafafa;
           border-radius: 5px;
           padding: 0 0.5rem;
+          margin: 0;
         }
         .description2 {
           line-height: 1.5;
@@ -280,7 +281,7 @@ export default function Home({ allPostsData }) {
           grid-template-columns: repeat(3, minmax(0, 1fr));
           grid-template-rows: auto;
           max-width: 800px;
-          margin-top: 3rem;
+          margin-top: 1rem;
         }
 
         .grid-container{
