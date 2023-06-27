@@ -15,12 +15,12 @@ export default function FirstPost() {
       </Head>
 
       <p className={styles.event}>
-        <h1>Events and Locations</h1>
+        <h1>Events</h1>
 
-        <h4>Workshop: JavaScript for Sound Artists</h4>
-        <h4>Live Concert</h4>
-        <h4>Show and Tell Sessions (1 and 2)</h4>
-        <h4>Final Presentations from Workshop</h4>
+        <a href="/posts/workshop_2023"><h4>Workshop: JavaScript for Sound Artists</h4></a>
+        <a href="#concert"><h4>Live Concert</h4></a>
+        <a href="#showAndTell"> <h4>Show and Tell Sessions (1 and 2)</h4></a>
+        <a href="#presentation"> <h4>Final Presentations from Workshop</h4></a>
 
 
       </p>
@@ -44,10 +44,10 @@ export default function FirstPost() {
           <figcaption>Laurens Inauen's Workshop from Browser Sound 2021</figcaption>
         </figure>
 
-      </div>
+      </div >
 
       <div className={styles.event}>
-        <h2>Concert</h2>
+        <h2 id="concert">Concert</h2>
 
         <h4>July 21st - 19:00</h4>
         <h4><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany</h4>
@@ -68,7 +68,7 @@ export default function FirstPost() {
       </div>
 
       <div className={styles.event}>
-        <h2>Show-and-Tell</h2>
+        <h2 id="showAndTell">Show-and-Tell</h2>
         <h4>July 22nd</h4>
         <h4>14:00 - 15:30 - Session 1</h4>
         <h4>16:00 - 17:30 - Session 2</h4>
@@ -100,7 +100,7 @@ export default function FirstPost() {
 
       </div>
       <div className={styles.event}>
-        <h2>Reading Session</h2>
+        <h2 id="presentation">Reading Session</h2>
         <h4>July 22nd - 19:00</h4>
         <h4><a href="https://www.kultur-kiosk.de/">Kultur Kiosk</a>, Stuttgart, Germany</h4>
         <h4>Online</h4>
@@ -128,6 +128,6 @@ export default function FirstPost() {
           margin-top: 10px;
         }
       `}</style>
-    </Layout>
+    </Layout >
   );
 }

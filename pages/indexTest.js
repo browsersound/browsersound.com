@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
 
       </Head>
 
-      <img src="/images/browser header mail with logo.png" classname="image-test" alt="Browser Sound 2023: Location Sharing"></img>
+      <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing"></img>
 
       <main>
         {/* <h1 className="title">
@@ -56,7 +56,7 @@ export default function Home({ allPostsData }) {
 
         <div className="grid-container">
           <div className="grid">
-            <a href="/posts/workshop_2023" className="card">
+            {/* <a href="/posts/workshop_2023" className="card">
               <h3>
                 WORKSHOP: Javascript for Sound Artists{" "}
                 <span className={utilStyles.noBreak}> &rarr;</span>
@@ -64,7 +64,7 @@ export default function Home({ allPostsData }) {
               <p>
                 Register for our online, 6-part workshop in web audio.
               </p>
-            </a>
+            </a> */}
 
             {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
               <h3>
@@ -78,11 +78,11 @@ export default function Home({ allPostsData }) {
 
             <a Link href="/posts/programming_2023" className="card">
               <h3>
-                Events and Location{" "}
+                Events{" "}
                 <span className={utilStyles.noBreak}>&rarr;</span>
               </h3>
               <p>
-                Times and places for our Concert, Workshop, and other events.
+                Times and places for our Concert, Workshop, and presentations.
               </p>
             </a>
 
