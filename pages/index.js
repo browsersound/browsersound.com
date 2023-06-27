@@ -37,14 +37,14 @@ export default function Home({ allPostsData }) {
       <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing" ></img>
 
       <main>
-        {/* <h1 className="title">
+        <h1 className="title">
           BROWSER SOUND {""}
           <Link href="/posts/programming_2023">
             <a>2023</a>
           </Link>
           :
         </h1>
-        <h1 className="title">Location Sharing</h1> */}
+        <h1 className="title">Location Sharing</h1>
 
         <p className="description">
           A Festival for New Music and the Web
