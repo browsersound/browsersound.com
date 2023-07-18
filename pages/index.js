@@ -50,7 +50,7 @@ export default function Home({ allPostsData }) {
           A Festival for New Music and the Web
         </p>
         <p className="description">
-          Check back here soon for the livestream link.
+          Check here soon for the livestream link!
         </p>
 
 
