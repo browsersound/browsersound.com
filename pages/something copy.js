@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
@@ -29,88 +30,25 @@ export default function Home({ allPostsData }) {
           </script> */}
 
 
-        <title>BROWSER SOUND | New Music and the Web</title>
+        <title>something</title>
         <link rel="icon" href="/browser-logo.ico" />
 
       </Head>
 
-      <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing" ></img>
 
       <main>
         <h1 className="title">
-          BROWSER SOUND {""}
-          <Link href="/posts/programming_2023">
-            <a>2023</a>
-          </Link>
-          :
+          something {""}
         </h1>
-        <h1 className="title">Location Sharing</h1>
 
-        <p className="description">
-          A Festival for New Music and the Web
-        </p>
-        <p className="description">
-          Check back here soon for the livestream link.
-        </p>
-
-
-
-        <div className="grid">
-          {/* <a href="/posts/workshop_2023" className="card">
-              <h3>
-                WORKSHOP: Javascript for Sound Artists{" "}
-                <span className={utilStyles.noBreak}> &rarr;</span>
-              </h3>
-              <p>
-                Register for our online, 6-part workshop in web audio.
-              </p>
-            </a> */}
-
-          {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
-              <h3>
-                Call for Proposals{" "}
-                <span className={utilStyles.noBreak}>&rarr;</span>
-              </h3>
-              <p>
-                Apply to our commision project with DigiScore
-              </p>
-            </a> */}
-
-          <a Link href="/posts/programming_2023" className="card">
-            <h3>
-              Events{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
-            </h3>
-            <p>
-              Come join us!
-            </p>
-          </a>
-
-          <a Link href="/posts/program-notes_2021" className="card">
-            <h3 className={utilStyles.noBreak}>About &rarr;</h3>
-
-            <p>
-              About our festival, our past commisions, workshops, and code.
-            </p>
-          </a>
+        <a href="https://docs.google.com/document/d/15POFrn94IbJjnXgvh-pO6SV8daYrUzbH1xx-4xC7Gb4/edit?usp=sharing">
+          <p className="description">
+            enter here
+          </p></a>
 
 
 
 
-
-          <a
-            Link
-            href="https://www.brandonlincolnsnyder.com/email-reminder"
-            className="card"
-          >
-            <h3>
-              Remind <span className={utilStyles.noBreak}>Me! &rarr;</span>
-            </h3>
-            <p>
-              Join our email list to get up to date with this years festival
-            </p>
-          </a>
-        </div>
 
         <div className="bgWrap">
           <Image
@@ -124,62 +62,6 @@ export default function Home({ allPostsData }) {
       </main>
 
       <footer>
-        <div className="footer-inner">
-          With support from:
-          <a
-            href="https://skam-ev.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/SKAM_logo_RZ.svg"
-              alt="SKAM Logo"
-              className="logo"
-              title="S-K-A-M e.V"
-            />
-          </a>
-
-
-          <a
-            href="https://digiscore.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/images/DigiScore-new-logo-with-added-circles-2022.png"
-              alt="DigiScore Logo"
-              className="logo"
-              title="S-K-A-M e.V"
-            />
-          </a>
-
-          <a
-            href="https://digiscore.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/images/LOGO_ERC-FLAG_EU_.jpg"
-              alt="ERC Logo"
-              className="logo"
-              title="S-K-A-M e.V"
-            />
-          </a>
-
-          <a
-            href="https://websoundart.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/WSA_logo.svg"
-              alt="websoundart Logo"
-              className="logo"
-              title="WSA"
-            />
-          </a>
-
-        </div>
 
       </footer>
 
@@ -272,15 +154,14 @@ export default function Home({ allPostsData }) {
           font-size: 1.5rem;
           background: #fafafa;
           border-radius: 5px;
-          padding: 0 0.5rem;
-          
+          padding: 0.75rem;
         }
         .description2 {
           line-height: 1.5;
           font-size: 1.5rem;
           background: #fafafa;
           border-radius: 5px;
-          padding: 0 0.5rem;
+          padding: 0.75rem;
         }
 
         code {
@@ -297,7 +178,7 @@ export default function Home({ allPostsData }) {
           grid-template-columns: repeat(3, minmax(0, 1fr));
           grid-template-rows: auto;
           max-width: 800px;
-          margin-top: 1rem;
+          margin-top: 3rem;
         }
 
         .grid-container{
@@ -311,7 +192,7 @@ export default function Home({ allPostsData }) {
         .card {
           margin: 1rem;
           flex-basis: 45%;
-          padding: 0.75rem;
+          padding: 1.5rem;
           text-align: left;
           color: inherit;
           text-decoration: none;
@@ -376,6 +257,7 @@ export default function Home({ allPostsData }) {
           box-sizing: border-box;
         }
       `}</style>
-    </div >
+    </div>
   );
 }
+
