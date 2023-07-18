@@ -1,3 +1,5 @@
+f
+
 import Link from "next/link";
 import Head from "next/head";
 import { getSortedPostsData } from "../lib/posts";
@@ -76,16 +78,33 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-
-
-
-          <a Link href="/posts/programming_2023" className="card">
+          <a Link href="https://youtube.com/live/9VpxKcxkJwk?feature=share" className="card-special">
             <h3>
-              Events{" "}
+              FRIDAY{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
             <p>
-              Come join us!
+              Livestream Here.
+            </p>
+          </a>
+
+          <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card-special">
+            <h3>
+              SATURDAY{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
+            <p>
+              Sessions Zoom Room Here.
+            </p>
+          </a>
+
+          <a Link href="/posts/programming_2023" className="card">
+            <h3>
+              Schedule{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
+            <p>
+              What to expect.
             </p>
           </a>
 
@@ -324,6 +343,19 @@ export default function Home({ allPostsData }) {
           background: #fafafa;
         }
 
+        .card-special {
+          margin: 1rem;
+          flex-basis: 45%;
+          padding: 0.75rem;
+          text-align: left;
+          color: inherit;
+          text-decoration: none;
+          border: 1px solid #eaeaea;
+          border-radius: 10px;
+          transition: color 0.15s ease, border-color 0.15s ease;
+          background: #ffea00;
+}
+
         .card:hover,
         .card:focus,
         .card:active {
@@ -382,3 +414,4 @@ export default function Home({ allPostsData }) {
     </div >
   );
 }
+
