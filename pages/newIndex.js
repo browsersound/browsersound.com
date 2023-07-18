@@ -78,7 +78,7 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-          <a Link href="https://youtube.com/live/9VpxKcxkJwk?feature=share" className="card-special">
+          <a Link href="https://youtube.com/live/9VpxKcxkJwk?feature=share" className="card">
             <h3>
               FRIDAY{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
@@ -88,7 +88,7 @@ export default function Home({ allPostsData }) {
             </p>
           </a>
 
-          <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card-special">
+          <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card">
             <h3>
               SATURDAY{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
@@ -343,18 +343,7 @@ export default function Home({ allPostsData }) {
           background: #fafafa;
         }
 
-        .card-special {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 0.75rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-          background: #ffea00;
-}
+       
 
         .card:hover,
         .card:focus,
