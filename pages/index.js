@@ -76,7 +76,7 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-          <a Link href="https://youtube.com/live/9VpxKcxkJwk?feature=share" className="card-special">
+          <a Link href="https://youtube.com/live/KVBJv_pJrmo?feature=share" className="card-special">
             <h3>
               FRIDAY{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
@@ -106,7 +106,7 @@ export default function Home({ allPostsData }) {
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
             <p>
-              Come join us!
+              Full Schedule
             </p>
           </a>
 
@@ -122,7 +122,7 @@ export default function Home({ allPostsData }) {
 
 
 
-          <a
+          {/* <a
             Link
             href="https://www.brandonlincolnsnyder.com/email-reminder"
             className="card"
@@ -133,7 +133,7 @@ export default function Home({ allPostsData }) {
             <p>
               Join our email list to get up to date with this years festival
             </p>
-          </a>
+          </a> */}
         </div>
 
         <div className="bgWrap">
@@ -343,6 +343,19 @@ export default function Home({ allPostsData }) {
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
           background: #fafafa;
+        }
+
+        .card-special {
+          margin: 1rem;
+          flex-basis: 45%;
+          padding: 0.75rem;
+          text-align: left;
+          color: inherit;
+          text-decoration: none;
+          border: 1px solid #eaeaea;
+          border-radius: 10px;
+          transition: color 0.15s ease, border-color 0.15s ease;
+          background: #fce303;
         }
 
         .card:hover,
