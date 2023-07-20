@@ -76,7 +76,7 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-          <a Link href="pages/livestream_forthcoming.js" className="card-special">
+          <a Link href="livestream_forthcoming" className="card-special">
             <h3>
               FRIDAY{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
