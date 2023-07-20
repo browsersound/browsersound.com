@@ -49,9 +49,9 @@ export default function Home({ allPostsData }) {
         <p className="description">
           A Festival for New Music and the Web
         </p>
-        <p className="description">
+        {/* <p className="description">
           Check here soon for the livestream link!
-        </p>
+        </p> */}
 
 
 
@@ -75,6 +75,27 @@ export default function Home({ allPostsData }) {
                 Apply to our commision project with DigiScore
               </p>
             </a> */}
+
+          <a Link href="https://youtube.com/live/9VpxKcxkJwk?feature=share" className="card-special">
+            <h3>
+              FRIDAY{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
+            <p>
+              Livestream Here.
+            </p>
+          </a>
+
+          <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card-special">
+            <h3>
+              SATURDAY{" "}
+              <span className={utilStyles.noBreak}>&rarr;</span>
+            </h3>
+            <p>
+              Sessions Zoom Room Here.
+            </p>
+          </a>
+
 
 
 
