@@ -76,13 +76,13 @@ export default function Home({ allPostsData }) {
               </p>
             </a> */}
 
-          <a Link href="livestream_forthcoming" className="card-special">
+          <a Link href="https://youtube.com/live/ca_3pqYDLwA?feature=share" className="card-special">
             <h3>
               FRIDAY{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
             <p>
-              Livestream Link Forthcoming!
+              Livestream Here.
             </p>
           </a>
 

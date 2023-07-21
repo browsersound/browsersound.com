@@ -43,7 +43,7 @@ export default function Home({ allPostsData }) {
 
 
         <p className="description">
-          live stream link will be posted here shortly before the concert (Friday - 19:00 CEST)
+          <a href='https://youtube.com/live/ca_3pqYDLwA?feature=share'>Here</a>
         </p>
 
 
