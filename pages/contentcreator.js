@@ -43,8 +43,12 @@ export default function Home({ allPostsData }) {
 
         
           <p className="description">
-            coming soon.
+            coming soon
           </p>
+          <p className="description">
+            Music for Electric Guitar, Electronics, and Social Media
+          </p>
+
 
 
 
