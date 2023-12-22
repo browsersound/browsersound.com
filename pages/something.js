@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
           something {""}
         </h1>
 
-        <a href="https://docs.google.com/document/d/15POFrn94IbJjnXgvh-pO6SV8daYrUzbH1xx-4xC7Gb4/edit?usp=sharing">
+        <a href="https://docs.google.com/document/d/1TdwCdIDXbWH3hXJQYPwqNEISYVz3YHHbkKmRb8c6x5M/edit?usp=sharing">
           <p className="description">
             enter here
           </p></a>
