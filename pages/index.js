@@ -39,12 +39,8 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-          <Link href="/posts/programming_2023">
-            <a>2023</a>
-          </Link>
-          :
         </h1>
-        <h1 className="title">Location Sharing</h1>
+        
 
         <p className="description">
           A Festival for New Music and the Web
@@ -52,48 +48,21 @@ export default function Home({ allPostsData }) {
         {/* <p className="description">
           Check here soon for the livestream link!
         </p> */}
-
-
-
         <div className="grid">
-          {/* <a href="/posts/workshop_2023" className="card">
-              <h3>
-                WORKSHOP: Javascript for Sound Artists{" "}
-                <span className={utilStyles.noBreak}> &rarr;</span>
-              </h3>
-              <p>
-                Register for our online, 6-part workshop in web audio.
-              </p>
-            </a> */}
-
-          {/* <a href="https://drive.google.com/file/d/1stSoj524VPguKK7yUS7NAHh-EMZ6i85r/view?usp=sharing" className="card">
-              <h3>
-                Call for Proposals{" "}
-                <span className={utilStyles.noBreak}>&rarr;</span>
-              </h3>
-              <p>
-                Apply to our commision project with DigiScore
-              </p>
-            </a> */}
-
-          <a Link href="https://youtube.com/live/ca_3pqYDLwA?feature=share" className="card-special">
+          <a Link href="https://youtube.com/live/ca_3pqYDLwA?feature=share" className="card">
             <h3>
-              FRIDAY{" "}
+              Music{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
-            <p>
-              Livestream Here.
-            </p>
+            
           </a>
 
-          <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card-special">
+          <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card">
             <h3>
-              SATURDAY{" "}
+              Blog{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
-            <p>
-              Sessions Zoom Room Here.
-            </p>
+           
           </a>
 
 
@@ -102,20 +71,15 @@ export default function Home({ allPostsData }) {
 
           <a Link href="/posts/programming_2023" className="card">
             <h3>
-              Events{" "}
+              Bookings{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
-            <p>
-              Full Schedule
-            </p>
+            
           </a>
 
           <a Link href="/posts/program-notes_2021" className="card">
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
-            <p>
-              About our festival, our past commisions, workshops, and code.
-            </p>
           </a>
 
 
