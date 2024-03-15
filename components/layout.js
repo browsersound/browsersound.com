@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         <h2 className={utilStyles.headingLg}>
-          <Link href="/">{name}</Link>
+          <Link href="/" legacyBehavior>{name}</Link>
         </h2>
         <div className={styles.headerDescription}>
           <p>A Festival for Music and the Web </p>
@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       <div className={styles.backToHome}>
         <Link href="/">
-          <a>← Back to home</a>
+          ← Back to home
         </Link>
       </div>
     </div>
