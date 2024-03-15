@@ -39,6 +39,13 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
+<<<<<<< Updated upstream
+=======
+          <Link href="/posts/programming_2023" legacyBehavior>
+            <a>2023</a>
+          </Link>
+          :
+>>>>>>> Stashed changes
         </h1>
         
 
