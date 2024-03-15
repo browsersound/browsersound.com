@@ -88,7 +88,7 @@ export default function FirstPost() {
         <p>1. An interactive noise box</p>
         <p>2. A drum/audio-sample sequencer</p>
         <p>3. A synthesizer</p>
-        <p>4. Using API's for audio and visual generation. </p>
+        <p>4. Using APIs for audio and visual generation. </p>
         <h4>I have other questions!</h4>
         <p>Send an email to browserwebmusic@gmail.com and let's work it out!</p>
       </p>

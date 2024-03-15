@@ -34,12 +34,12 @@ export default function Home({ allPostsData }) {
 
       </Head>
 
-      <img src="/images/browser header mail no logo 2_crop.png" classname="image-test" alt="Browser Sound 2023: Location Sharing" ></img>
+      <img src="images/logo_browserSound.png" classname="image-test" alt="Browser Sound logo" ></img>
 
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-          <Link href="/posts/programming_2023">
+          <Link href="/posts/programming_2023" legacyBehavior>
             <a>2023</a>
           </Link>
           :
@@ -78,35 +78,21 @@ export default function Home({ allPostsData }) {
 
           <a Link href="https://youtube.com/live/ca_3pqYDLwA?feature=share" className="card-special">
             <h3>
-              FRIDAY{" "}
+              2023 Stream{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
             <p>
-              Livestream Here.
+              Recorded Stream of the Location Sharing concert.
             </p>
           </a>
 
-          <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card-special">
+          <a Link href="/posts/programming_2023" className="card-special">
             <h3>
-              SATURDAY{" "}
+              Location Sharing{" "}
               <span className={utilStyles.noBreak}>&rarr;</span>
             </h3>
             <p>
-              Sessions Zoom Room Here.
-            </p>
-          </a>
-
-
-
-
-
-          <a Link href="/posts/programming_2023" className="card">
-            <h3>
-              Events{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
-            </h3>
-            <p>
-              Full Schedule
+              Our 2023 Festival Program
             </p>
           </a>
 
@@ -114,7 +100,7 @@ export default function Home({ allPostsData }) {
             <h3 className={utilStyles.noBreak}>About &rarr;</h3>
 
             <p>
-              About our festival, our past commisions, workshops, and code.
+              Our 2021 Festival, past commissions, workshops, and source code.
             </p>
           </a>
 
@@ -208,6 +194,8 @@ export default function Home({ allPostsData }) {
       </footer>
 
       <style jsx>{`
+
+
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -397,6 +385,8 @@ export default function Home({ allPostsData }) {
             grid-template-rows: auto;
           }
         }
+
+    
       `}</style>
 
       <style jsx global>{`
