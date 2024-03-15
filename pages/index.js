@@ -39,10 +39,6 @@ export default function Home({ allPostsData }) {
       <main>
         <h1 className="title">
           BROWSER SOUND {""}
-          <Link href="/posts/programming_2023" legacyBehavior>
-            <a>2023</a>
-          </Link>
-          :
         </h1>
         
 
@@ -56,7 +52,7 @@ export default function Home({ allPostsData }) {
           <a Link href="https://youtube.com/live/ca_3pqYDLwA?feature=share" className="card">
             <h3>
               Music{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
+              <span className={utilStyles.noBreak}></span>
             </h3>
             
           </a>
@@ -64,25 +60,21 @@ export default function Home({ allPostsData }) {
           <a Link href="https://us06web.zoom.us/j/88612066568?pwd=V1lXTlg4a2FSVEVkWUMrTFYzN3dXZz09" className="card">
             <h3>
               Blog{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
+              <span className={utilStyles.noBreak}></span>
             </h3>
            
           </a>
 
-
-
-
-
           <a Link href="/posts/programming_2023" className="card">
             <h3>
               Bookings{" "}
-              <span className={utilStyles.noBreak}>&rarr;</span>
+              <span className={utilStyles.noBreak}></span>
             </h3>
             
           </a>
 
           <a Link href="/posts/program-notes_2021" className="card">
-            <h3 className={utilStyles.noBreak}>About &rarr;</h3>
+            <h3 className={utilStyles.noBreak}>About</h3>
 
           </a>
 
