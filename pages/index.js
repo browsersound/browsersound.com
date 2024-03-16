@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <Link href="#homeTitle" legacyBehavior>
-            <a><img src="images/logo_browserSound.png" classname="image-test" alt="Browser Sound logo" ></img></a>
+            <a><img src="images/logo_browserSound.png" className="image-test" alt="Browser Sound logo" ></img></a>
           </Link>
 
       <main>
