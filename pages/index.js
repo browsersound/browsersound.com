@@ -34,10 +34,12 @@ export default function Home({ allPostsData }) {
 
       </Head>
 
-      <img src="images/logo_browserSound.png" classname="image-test" alt="Browser Sound logo" ></img>
+      <Link href="#homeTitle" legacyBehavior>
+            <a><img src="images/logo_browserSound.png" classname="image-test" alt="Browser Sound logo" ></img></a>
+          </Link>
 
       <main>
-        <h1 className="title">
+        <h1 id="homeTitle" className="title">
           BROWSER SOUND {""}
           <Link href="/posts/programming_2023" legacyBehavior>
             <a>2023</a>
